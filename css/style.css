@@ -1,12 +1,15 @@
 
+/*this is how you write a css comment*/
+/*note to self: wrap text windows: alt + z*/
 
-
+/*I learned that this was a shortcut to position an element like my logo top center*/
 .logo {
     height: 90px;
     display: block;
     margin: 0 auto;
 }
 
+/*Here, I changed the background color and added some margins that applies to the entire website*/
 body {
     background-color: #fff3ee;
     margin: 20px;

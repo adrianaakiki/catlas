@@ -1,8 +1,12 @@
 
 
 .logo {
-    height:80px;
+    height: 90px;
     display: block;
     margin: 0 auto;
+}
+
+body {
+    background-color: #fff3ee
 }
 

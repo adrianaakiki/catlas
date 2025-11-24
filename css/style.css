@@ -5,14 +5,14 @@
 
 /*I learned that this was a shortcut to position an element like my logo top center*/
 .logo {
-    height: 90px;
+    height: 110px;
     display: block;
     margin: 0 auto;
 }
 
 /*Here, I changed the background color and added some margins that applies to the entire website*/
 body {
-    background-color: #fff3ee;
+    background-color: #f9f9ff;
     margin: 20px;
     padding: 20px;
     margin-top: 40px;

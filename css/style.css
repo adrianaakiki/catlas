@@ -36,4 +36,13 @@ h1 {
     cursor:pointer;
 }
 
+.contact-button {
+    background-color:#d9daff;
+    color:#292647;
+    font-family:"Righteous";
+    font-size:20px;
+    border:none;
+    cursor:pointer;
+}
+
 

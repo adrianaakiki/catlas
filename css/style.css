@@ -25,6 +25,15 @@ h1 {
     font-family:"Righteous";
     font-size: 35px;
     color:292647;
-
 }
+
+.page-button {
+    background-color: #292647;
+    color:#d9daff;
+    font-family: "Righteous";
+    font-size:20px;
+    border:none;
+    cursor:pointer;
+}
+
 

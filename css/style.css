@@ -21,13 +21,10 @@ body {
 
 /*This is how you change a font in css*/
 
-  @font-face {
-        font-family: "Righteous-Regular";
-        src: url(fonts/Righteous-Regular.ttf);
-  }
-h1{
-    font-size: "Righteous-Regular";
-    font-family: ;
+h1 {
+    font-family:"Righteous";
+    font-size: 35px;
+    color:292647;
 
 }
 

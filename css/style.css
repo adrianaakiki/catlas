@@ -20,14 +20,18 @@ body {
 }
 
 /*This is how you change a font in css*/
-
 h1 {
     font-family:"Righteous";
     font-size: 35px;
     color:292647;
 }
+h2{
+    font-family: "Righteous";
+    font-size: 25px;
+    color:292647;
+}
 
-/*BUTTONS STYLING SECTION*/
+/*MENU BUTTONS STYLING SECTION*/
 .page-button {
     background-color: #292647;
     color:#d9daff;
@@ -37,6 +41,7 @@ h1 {
     cursor:pointer;
 }
 
+/*CONTACT BUTTON STYLING SECTION*/
 .contact-button {
     background-color:#d9daff;
     color:#292647;
@@ -44,6 +49,13 @@ h1 {
     font-size:20px;
     border:none;
     cursor:pointer;
+}
+
+/*HOMEPAGE MENU LAYOUT SECTION*/
+.homepage-menu {
+    display: flex;
+    justify-content:space-evenly;
+
 }
 
 

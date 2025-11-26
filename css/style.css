@@ -52,10 +52,11 @@ p{
     font-size:24px;
     border:none;
     cursor:pointer;
-    padding:8px 24px;
+    padding:8px 50px;
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 5px;
+    width: 280px
 }
 
 /*CONTACT BUTTON STYLING SECTION*/
@@ -63,21 +64,23 @@ p{
     background-color:#d9daff;
     color:#292647;
     font-family:"Righteous";
-    font-size:20px;
+    font-size:24px;
     font-weight:900;
     border:none;
     cursor:pointer;
     padding:8px 24px;
-    border-radius:15px;
+    border-radius:20px;
+    width:280px
 }
 
 .contact-box {
-margin-top: 40px;
+margin-top: 80px;
 display:flex;
 flex-direction:column;
 align-items:center;
 place-items:center;
 text-align:center;
+
 }
 
 /*HOMEPAGE MENU LAYOUT SECTION*/

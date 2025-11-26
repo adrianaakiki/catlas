@@ -27,8 +27,15 @@ h1 {
 }
 h2{
     font-family: "Righteous";
-    font-size: 25px;
+    font-size: 28px;
     color:292647;
+}
+p{
+    font-family:"oxygen";
+    font-size: 18px;
+    font-weight:400; 
+    color:#292647;
+    
 }
 
 /*MENU BUTTONS STYLING SECTION*/

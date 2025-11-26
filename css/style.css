@@ -41,9 +41,6 @@ margin-left:auto;
 margin-right:auto;
 }
 
-.welcome-box{
-display:block;
-}
 
 /*Here, I changed the background color and added some margins that applies to the entire website*/
 
@@ -64,20 +61,20 @@ h1 {
 }
 h2{
     font-family: "Righteous";
-    font-size: 28px;
+    font-size:30px;
     font-weight:400;
     color:292647;
 }
 h3{
     font-family:"Righteous";
-    font-size: 20px;
+    font-size: 22px;
     font-weight:400;
     color:#292647;
 }
 p{
     font-family:"oxygen";
     font-size: 18px;
-    font-weight:400; 
+    font-weight:700; 
     color:#292647;
     
 }
@@ -87,15 +84,19 @@ p{
     background-color: #292647;
     color:#d9daff;
     font-family: "Righteous";
-    font-size:24px;
+    font-size:28px;
     border:none;
     cursor:pointer;
     padding:8px 50px;
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom:0px;
-    width: 280px
+    width: 300px
 }
+.timeline-description,.faq-description, .map-description {
+    margin-top:15px
+}
+
 
 /*CONTACT BUTTON STYLING SECTION*/
 .contact-button {
@@ -118,7 +119,10 @@ flex-direction:column;
 align-items:center;
 place-items:center;
 text-align:center;
+}
 
+.contact-description{
+    margin-top:15px;
 }
 
 /*HOMEPAGE MENU LAYOUT SECTION*/

@@ -8,25 +8,41 @@
     height: 110px;
     display: block;
     margin: 0 auto;
+    z-index:3;
 }
 
 /*WELCOME SECTION: Using manual positioning for overlapping items*/
+
+
 .welcome-title{
+    position:absolute;
+    top:150px;
+    left:40px;
     margin: px auto;
     background-color:#292647;
     padding: 8px 50px;
     border-radius:20px;
     width: 120px;
     text-align: center;
+    z-index:2;
+
 }
 
 .welcome-description {
 position:relative;
 background-color:#d9daff;
-padding: 20px 50px;
-border-radius:25px;
-height:70px;
-width: 1250px;
+padding: 25px 50px;
+border-radius:30px;
+height:50px;
+width: 1100px;
+margin-top:40px;
+align-items:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+.welcome-box{
+display:block;
 }
 
 /*Here, I changed the background color and added some margins that applies to the entire website*/

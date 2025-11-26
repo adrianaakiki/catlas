@@ -50,6 +50,9 @@ body {
     padding: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
+
+cursor: url('/cursor/paw-cursor.cur'), auto;
+
 }
 /*FONT-STYLES*/
 /*This is how you change a font in css*/
@@ -80,6 +83,7 @@ p{
 }
 
 /*MENU BUTTONS STYLING SECTION*/
+/*note to self: add a different pointer cursor*/
 .page-button {
     background-color: #292647;
     color:#d9daff;
@@ -101,6 +105,9 @@ p{
     margin-top:15px
 }
 
+.page-button:hover{
+    text-shadow:8px d9daff;
+}
 
 /*CONTACT BUTTON STYLING SECTION*/
 .contact-button {

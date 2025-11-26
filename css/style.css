@@ -59,8 +59,11 @@ p{
     color:#292647;
     font-family:"Righteous";
     font-size:20px;
+    font-weight:900;
     border:none;
     cursor:pointer;
+    padding:8px 24px;
+    border-radius:15px;
 }
 
 /*HOMEPAGE MENU LAYOUT SECTION*/

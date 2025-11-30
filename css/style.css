@@ -118,9 +118,20 @@ p{
     margin-top:15px
 }
 
-.page-button:hover{
-    text-shadow:8px d9daff;
+/*BUTTONS HOVER ANIMATION*/
+
+.page-button,
+.contact-button {
+    transition: transform 0.25s, ease, box-shadow 0.25s ease;
 }
+
+.page-button:hover, 
+.contact-button:hover{
+    transform:scale(1.1,1.1);
+}
+
+
+
 
 /*CONTACT BUTTON STYLING SECTION*/
 .contact-button {

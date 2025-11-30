@@ -120,13 +120,17 @@ p{
 
 /*BUTTONS HOVER ANIMATION*/
 
-.page-button,
-.contact-button {
+.timeline-box,
+.map-box,
+.faq-box,
+.contact-box{
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.page-button:hover, 
-.contact-button:hover{
+.timeline-box:hover, 
+.map-box:hover,
+.faq-box:hover,
+.contact-box:hover{
     transform:scale(1.1,1.1);
 }
 

@@ -5,10 +5,12 @@
 
 /*I learned that this was a shortcut to position an element like my logo top center*/
 .logo {
-    height: 110px;
+    height: 140px;
     display: block;
     margin: 0 auto;
+    margin-top:20px;
     z-index:3;
+
 }
 
 /*WELCOME SECTION: Using manual positioning for overlapping items*/
@@ -17,6 +19,7 @@
     width:80%;
     max-width:1100px;
     margin: 40px auto;
+    margin-top:-5px;
     position: relative;
     transform: translateX(-100px);
 

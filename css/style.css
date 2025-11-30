@@ -109,7 +109,7 @@ p{
     box-sizing:border-box;
     padding:8px 50px;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 22px;
     margin-bottom:0px;
     width: 300px;
     text-decoration:none;
@@ -120,6 +120,7 @@ p{
 
 /*BUTTONS HOVER ANIMATION*/
 
+/*menu scale animations on hover*/
 .timeline-box,
 .map-box,
 .faq-box,
@@ -133,7 +134,11 @@ p{
 .contact-box:hover{
     transform:scale(1.1,1.1);
 }
-
+/*button glow animation*/
+.page-button:hover,
+.contact-button:hover{
+    box-shadow: 0 0 40px rgba(66, 14, 255, 0.6);
+}
 
 
 
@@ -178,8 +183,8 @@ text-align:center;
 /*the height adjustment on images fixed the issue to line the menu buttons up, and the object-fit contain prevents the images from stretching weirdly*/
 
 .homepage-menu img {
-    width:340px;
-    height: 200;
+    width:400px;
+    height: 200px;
     display:block;
     margin:0 auto 12px;
     object-fit:contain;

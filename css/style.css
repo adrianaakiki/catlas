@@ -73,37 +73,27 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
 
 /*Cat Png Sizing*/
 .blackcat-loaf{
-    width:250px;
+    width:200px;
+    position:absolute;
+    top:80px;
+    left:100px;
 }
 
 .blackcat-stretch{
-    width:300px;
+    width:200px;
+    position:absolute;
+    top:60px;
+    right:100px;
+
 }
 
+/*possibly remove*/
 .blackcat-tall{
-    width:250px;
+    width:200px;
+    position:absolute;
+    right:100px;
+    bottom:-150px;
 }
-
-/*Cat Png Positioning */
-
-/*Blackcat-loaf.png TOP LEFT CAT PNG*/
-
-
-/*Blackcat-stretch.png TOP RIGHT CAT PNG*/
-
-/*Blackcat-tall.png BOTTOM RIGHT CAT PNG*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

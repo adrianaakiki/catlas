@@ -67,6 +67,46 @@ body {
 cursor: url('/cursor/paw-cursor.cur'), auto;
 
 }
+
+
+/*CAT PNGS*/
+
+/*Cat Png Sizing*/
+.blackcat-loaf{
+    width:250px;
+}
+
+.blackcat-stretch{
+    width:300px;
+}
+
+.blackcat-tall{
+    width:250px;
+}
+
+/*Cat Png Positioning */
+
+/*Blackcat-loaf.png TOP LEFT CAT PNG*/
+
+
+/*Blackcat-stretch.png TOP RIGHT CAT PNG*/
+
+/*Blackcat-tall.png BOTTOM RIGHT CAT PNG*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FONT-STYLES*/
 /*This is how you change a font in css*/
 h1 {

@@ -21,7 +21,9 @@ TROUBLESHOOTING POSITIONING: I relied on the live preview window on VS Code to s
 made and I used it as a guide with manual positioning and creating flexbox layouts. 
 When I opened my browser through live server, everything is zoomed in - even at 100% and the elements
 are too large and off center. I will fix this by adjusting sizes and positioning of some elements and use live server as a guide 
-to review my changes*/
+to review my changes
+
+note: resize elements to smaller: logo, images, etc*/
 
 
 /*WELCOME SECTION: Using manual positioning for overlapping items*/

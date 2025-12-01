@@ -13,6 +13,17 @@
 
 }
 
+
+/*POSITIONING NOTE TO SELF: Microsoft live preview is not an accurate representation of a real browser window, 
+use Live Server for accuracy, use shortcut ctrl+0 for 100% default zoom.
+
+TROUBLESHOOTING POSITIONING: I relied on the live preview window on VS Code to see the changes being
+made and I used it as a guide with manual positioning and creating flexbox layouts. 
+When I opened my browser through live server, everything is zoomed in - even at 100% and the elements
+are too large and off center. I will fix this by adjusting sizes and positioning of some elements and use live server as a guide 
+to review my changes*/
+
+
 /*WELCOME SECTION: Using manual positioning for overlapping items*/
 
 .welcome-box{

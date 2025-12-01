@@ -32,8 +32,6 @@ to review my changes*/
     margin: 40px auto;
     margin-top:-5px;
     position: relative;
-    transform: translateX(-100px);
-
 }
 
 .welcome-title{
@@ -160,7 +158,6 @@ p{
 }
 
 /*BUTTONS HOVER ANIMATION*/
-
 /*menu scale animations on hover*/
 .timeline-box,
 .map-box,

@@ -44,14 +44,14 @@ note: resize elements to smaller: logo, images, etc*/
     max-width:60rem;
     margin: 0 auto 2.5rem;
     position: relative;
-    margin-top:-5rem;
+    margin-top:-2rem;
 }
 
 .welcome-title{
     margin: 0 auto;
     background-color:#292647;
     display:inline-block;
-    padding: 0.8rem 1.2rem;
+    padding: 0.5rem 1.2rem;
     border-radius:1.8rem;
     text-align: center;
     position:relative;
@@ -102,7 +102,7 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
 /*Cat Png Sizing*/
 .blackcat-loaf,
 .blackcat-stretch {
-    width: 8rem;
+    width: 6rem;
 }
 
 
@@ -161,6 +161,7 @@ p{
 .timeline-box,
 .map-box,
 .faq-box,
+.page-buttons,
 .contact-button{
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -184,13 +185,13 @@ p{
     background-color:#d9daff;
     color:#292647;
     font-family:"Righteous";
-    font-size:1.4rem;
+    font-size:1rem;
     font-weight:900;
     border:none;
     cursor:pointer;
     padding:0.5rem 1.9rem;
     border-radius:1.25rem;
-    width:15rem;
+    width:8.5rem;
 }
 
 .contact-box {
@@ -203,7 +204,7 @@ text-align:center;
 }
 
 .contact-description{
-    margin-top:0.8rem;
+    margin-top:0.4rem;
 }
 
 /*HOMEPAGE MENU LAYOUT SECTION*/

@@ -73,7 +73,7 @@ line-height: 1.5rem;
 
 
 /*Here, I changed the background color and added some margins that applies to the entire website*/
-/*troubleshooting layout issues for the homepage browser*/
+/*troubleshooting layout issues for the homepage browser- reduced body padding to fix layout*/
 body {
     background-color: #f9f9ff;
     max-width: 1200px;
@@ -90,14 +90,17 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1.25rem;
+    margin-top: -6rem;
 }
 
+.blackcat-stretch{
+    margin-top: -2.5rem;
+}
 
 /*Cat Png Sizing*/
 .blackcat-loaf,
 .blackcat-stretch {
-    width: 10rem;
+    width: 8rem;
 }
 
 
@@ -114,9 +117,9 @@ h1 {
 }
 h2{
     font-family: "Righteous";
-    font-size:1.8rem;
+    font-size:1.4rem;
     font-weight:400;
-    color:292647;
+    color:d9daff;
 }
 h3{
     font-family:"Righteous";
@@ -137,8 +140,6 @@ p{
 .page-buttons {
     background-color: #292647;
     color:#d9daff;
-    font-family: "Righteous";
-    font-size:1.4rem;
     border:none;
     cursor:pointer;
     display:inline-block;

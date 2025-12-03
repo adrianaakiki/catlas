@@ -18,7 +18,7 @@
 /*CATLAS LOGO
 - I learned that this was a shortcut to position an element like my logo top center*/
 .logo {
-    height: 6rem;
+    height: 8rem;
     display: block;
     margin: 0 auto 1.25rem;
 }
@@ -43,6 +43,7 @@ note: resize elements to smaller: logo, images, etc*/
     max-width:60rem;
     margin: 0 auto 2.5rem;
     position: relative;
+    margin-top:-2.5rem;
 }
 
 .welcome-title{
@@ -223,6 +224,7 @@ text-align:center;
     display:block;
     margin:0 auto;
     object-fit:contain;
+    margin-top: -2rem;
 }
 
 

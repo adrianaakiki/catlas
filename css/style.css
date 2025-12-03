@@ -7,7 +7,7 @@
 
 
 /* ROOT 
-- I added root as it sets a default font size that will apply to the entire site and rem units */
+- I added root as it sets a default px size that will apply to the entire site and rem units */
 
 :root {
     font-size:16px;

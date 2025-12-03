@@ -40,7 +40,7 @@ note: resize elements to smaller: logo, images, etc*/
 
 .welcome-box{
     width:100%;
-    max-width:20rem;
+    max-width:60rem;
     margin: 0 auto 2.5rem;
     position: relative;
 }
@@ -61,10 +61,10 @@ note: resize elements to smaller: logo, images, etc*/
 .welcome-description {
 position:relative;
 background-color:#d9daff;
-padding: 0.8rem 1.8rem;
-border-radius:1.5rem;
+padding: 2rem 2rem;
+border-radius:2rem;
 width: 100%;
-max-width:100rem;
+max-width: 60rem;
 margin: 0 auto;
 margin-top: 1.2rem;
 display: block;

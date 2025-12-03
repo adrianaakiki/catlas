@@ -97,23 +97,11 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
 }
 
 
-
-
 /*Cat Png Sizing*/
-.blackcat-loaf{
-    width:200px;
-    position:absolute;
-    top:80px;
-    left:100px;
+.blackcat-loaf,
+.blackcat-stretch {
+    width: 10rem;
 }
-
-.blackcat-stretch{
-    width:200px;
-    position:absolute;
-    top:60px;
-    right:100px;
-}
-
 
 
 

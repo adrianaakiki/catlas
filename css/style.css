@@ -44,7 +44,7 @@ note: resize elements to smaller: logo, images, etc*/
     max-width:60rem;
     margin: 0 auto 2.5rem;
     position: relative;
-    margin-top:-2rem;
+    margin-top:-3rem;
 }
 
 .welcome-title{
@@ -96,7 +96,7 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
 }
 
 .blackcat-stretch{
-    margin-top: -2rem;
+    margin-top: -1rem;
 }
 
 /*Cat Png Sizing*/
@@ -212,8 +212,8 @@ text-align:center;
     display: flex;
     justify-content:space-evenly;
     align-items: flex-start;
-    margin-top: 1rem;
     gap:3rem;
+    margin-top: -0.8rem;
 }
 
 /*Fixing flexbox alignment to apply evenly to all images that are different sizes*/

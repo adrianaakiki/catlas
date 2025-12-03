@@ -88,6 +88,17 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
 
 /*CAT PNGS*/
 
+/*Cat Png Positioning*/
+.top-area-cats{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+
+
+
 /*Cat Png Sizing*/
 .blackcat-loaf{
     width:200px;

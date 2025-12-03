@@ -18,9 +18,10 @@
 /*CATLAS LOGO
 - I learned that this was a shortcut to position an element like my logo top center*/
 .logo {
-    height: 8rem;
+    height: 6rem;
     display: block;
-    margin: 0 auto 1.25rem;
+    margin: 0 auto;
+    margin-top: -2rem;
 }
 
 
@@ -43,25 +44,25 @@ note: resize elements to smaller: logo, images, etc*/
     max-width:60rem;
     margin: 0 auto 2.5rem;
     position: relative;
-    margin-top:-2.5rem;
+    margin-top:-5rem;
 }
 
 .welcome-title{
     margin: 0 auto;
     background-color:#292647;
     display:inline-block;
-    padding: 0.8rem 1.8rem;
+    padding: 0.8rem 1.2rem;
     border-radius:1.8rem;
     text-align: center;
     position:relative;
-    z-index:2;
+    z-index:1;
     margin-bottom:-1.8rem;
 }
 
 .welcome-description {
 position:relative;
-background-color:#d9daff;
-padding: 2rem 2rem;
+background-color:#dbdcff;
+padding: 1rem 1rem;
 border-radius:2rem;
 width: 100%;
 max-width: 60rem;
@@ -91,11 +92,11 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: -6rem;
+    margin-top: -4rem;
 }
 
 .blackcat-stretch{
-    margin-top: -2.5rem;
+    margin-top: -2rem;
 }
 
 /*Cat Png Sizing*/
@@ -210,8 +211,8 @@ text-align:center;
     display: flex;
     justify-content:space-evenly;
     align-items: flex-start;
-    margin-top: 4.3rem;
-    gap:3.75rem;
+    margin-top: -1rem;
+    gap:5rem;
 }
 
 /*Fixing flexbox alignment to apply evenly to all images that are different sizes*/
@@ -224,7 +225,6 @@ text-align:center;
     display:block;
     margin:0 auto;
     object-fit:contain;
-    margin-top: -2rem;
 }
 
 

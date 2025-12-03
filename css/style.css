@@ -78,7 +78,7 @@ body {
     background-color: #f9f9ff;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 40px 40px 60px;
+    padding: 0 2rem;
 
 cursor: url('/cursor/paw-cursor.cur'), auto;
 }

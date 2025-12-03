@@ -21,7 +21,7 @@
     height: 6rem;
     display: block;
     margin: 0 auto;
-    margin-top: -2rem;
+    margin-top:-1rem;
 }
 
 
@@ -125,13 +125,13 @@ h2{
 }
 h3{
     font-family:"Righteous";
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight:400;
     color:#292647;
 }
 p{
     font-family:"oxygen";
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight:700; 
     color:#292647;
 }
@@ -153,7 +153,7 @@ p{
     text-decoration:none;
 }
 .timeline-description,.faq-description, .map-description {
-    margin-top:0rem;
+    margin-top:-0.5rem;
 }
 
 /*BUTTONS HOVER ANIMATION*/
@@ -161,14 +161,14 @@ p{
 .timeline-box,
 .map-box,
 .faq-box,
-.contact-box{
+.contact-button{
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .timeline-box:hover, 
 .map-box:hover,
 .faq-box:hover,
-.contact-box:hover{
+.contact-button:hover{
     transform:scale(1.1,1.1);
 }
 /*button glow animation*/
@@ -194,7 +194,7 @@ p{
 }
 
 .contact-box {
-margin-top: 3rem;
+margin-top: 2rem;
 display:flex;
 flex-direction:column;
 align-items:center;
@@ -203,7 +203,7 @@ text-align:center;
 }
 
 .contact-description{
-    margin-top:1rem
+    margin-top:0.8rem;
 }
 
 /*HOMEPAGE MENU LAYOUT SECTION*/
@@ -211,8 +211,8 @@ text-align:center;
     display: flex;
     justify-content:space-evenly;
     align-items: flex-start;
-    margin-top: -1rem;
-    gap:5rem;
+    margin-top: 1rem;
+    gap:3rem;
 }
 
 /*Fixing flexbox alignment to apply evenly to all images that are different sizes*/
@@ -220,7 +220,7 @@ text-align:center;
 /*the height adjustment on images fixed the issue to line the menu buttons up, and the object-fit contain prevents the images from stretching weirdly*/
 
 .homepage-menu img {
-    width:17rem;
+    width:20rem;
     height:10rem;
     display:block;
     margin:0 auto;

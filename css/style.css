@@ -18,12 +18,9 @@
 /*CATLAS LOGO
 - I learned that this was a shortcut to position an element like my logo top center*/
 .logo {
-    height: 160px;
+    height: 6rem;
     display: block;
-    margin: 0 auto;
-    margin-top:20px;
-    z-index:3;
-
+    margin: 0 auto 1.25rem;
 }
 
 

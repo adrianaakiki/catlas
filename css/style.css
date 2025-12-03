@@ -76,10 +76,9 @@ line-height: 1.5rem;
 /*troubleshooting layout issues for the homepage browser*/
 body {
     background-color: #f9f9ff;
-    margin: 0 auto;
     max-width: 1200px;
-    padding: 0 2rem;
-
+    padding: 2rem;
+    
 cursor: url('/cursor/paw-cursor.cur'), auto;
 }
 

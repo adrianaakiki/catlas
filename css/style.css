@@ -147,12 +147,12 @@ p{
     box-sizing:border-box;
     padding:0.5rem 1.9rem;
     border-radius: 1.25rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 15rem;
     text-decoration:none;
 }
 .timeline-description,.faq-description, .map-description {
-    margin-top:0.8rem;
+    margin-top:0rem;
 }
 
 /*BUTTONS HOVER ANIMATION*/
@@ -219,7 +219,7 @@ text-align:center;
 /*the height adjustment on images fixed the issue to line the menu buttons up, and the object-fit contain prevents the images from stretching weirdly*/
 
 .homepage-menu img {
-    width:20rem;
+    width:17rem;
     height:10rem;
     display:block;
     margin:0 auto;

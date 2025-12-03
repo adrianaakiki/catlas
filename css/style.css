@@ -74,7 +74,6 @@ body {
     max-width: 1200px;
     padding: 40px 40px 60px;
 
-
 cursor: url('/cursor/paw-cursor.cur'), auto;
 
 }
@@ -98,18 +97,14 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
 
 }
 
-/*possibly remove*/
-.blackcat-tall{
-    width:200px;
-    position:absolute;
-    right:100px;
-    bottom:-150px;
-}
+
 
 
 
 /*FONT-STYLES*/
-/*This is how you change a font in css*/
+/*This is how you change a font in css
+FONT SIZES & RESPONSIVENESS NOTE: For responsiveness, use rem instead of px for font sizes, 
+for large headings and smaller screens use pw */
 h1 {
     font-family:"Righteous";
     font-size: 28px;
@@ -240,4 +235,10 @@ text-align:center;
 }
 
 
-/*RESPONSIVENESS*/
+/*RESPONSIVENESS
+Notes:
+- Use relative Units such as rem and em for larger elements 
+- Pixels and absolute positioning do not adapt to different screen sizes 
+- I should use flexbox and percentages for layout
+- Use rem for fonts
+- avoid absolute positioning as much as possible*/

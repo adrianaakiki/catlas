@@ -104,7 +104,13 @@ cursor: url('/cursor/paw-cursor.cur'), auto;
 /*FONT-STYLES*/
 /*This is how you change a font in css
 FONT SIZES & RESPONSIVENESS NOTE: For responsiveness, use rem instead of px for font sizes, 
-for large headings and smaller screens use pw */
+for large headings and smaller screens use pw 
+- I added root as it sets a default font size that will apply to the entire site and rem units */
+
+:root {
+    font-size:16px;
+}
+
 h1 {
     font-family:"Righteous";
     font-size: 28px;

@@ -55,7 +55,6 @@ note: resize elements to smaller: logo, images, etc*/
     position:relative;
     z-index:2;
     margin-bottom:-1.8rem;
-    font-size:2rem;
 }
 
 .welcome-description {
@@ -69,8 +68,7 @@ margin: 0 auto;
 margin-top: 1.2rem;
 display: block;
 text-align: center;
-line-height: 1.5;
-font-size: 1rem;
+line-height: 1.5rem;
 }
 
 
@@ -113,25 +111,25 @@ for large headings and smaller screens use pw*/
 
 h1 {
     font-family:"Righteous";
-    font-size: 28px;
+    font-size: 2rem;
     font-weight:400;
     color:d9daff;
 }
 h2{
     font-family: "Righteous";
-    font-size:30px;
+    font-size:1.8rem;
     font-weight:400;
     color:292647;
 }
 h3{
     font-family:"Righteous";
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight:400;
     color:#292647;
 }
 p{
     font-family:"oxygen";
-    font-size: 18px;
+    font-size: 1rem;
     font-weight:700; 
     color:#292647;
     

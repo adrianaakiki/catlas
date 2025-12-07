@@ -25,66 +25,67 @@
 
 <!-- Note: the body section is for all content that is visible. Keep it here! Semantic structure is just as important as syntax. -->
 
+<!--Page-wrapper note: I added a page wrapper class because the padding rule was messing with making my navbar which I did not want to float and I'm going to move the the padding rule from body in my css and apply it to the 'page-wrapper' class instead-->
+
+<!--HOMEPAGE ELEMENTS-------------------------------------------------------------------------------------------------------------------------->
+
 <body>
+<div class="page-wrapper">
 
-<!-- Note to self: add splash intro screen here if there's time-->
- <div> </div>
+	<img class="logo" src="logo/catlas_logo.png" alt="Catlas Logo">
 
+	<!--Note: maybe change logo style to internal css so that its bigger only on the homepage and is smaller in subpages-->
+	<!--I included 'alt' as an accessibility feature after each image source to describe the image, incase the image does not load on the webpage-->
 
-<img class="logo" src="logo/catlas_logo.png" alt="Catlas Logo">
-
-<!--Note: maybe change logo style to internal css so that its bigger only on the homepage and is smaller in subpages-->
-<!--I included 'alt' as an accessibility feature after each image source to describe the image, incase the image does not load on the webpage-->
-
-<!--CAT PNGS-------------------------------------------------------------->
-<!--top cats-->
-<div class="top-area-cats">
-	<img src="images/blackcat-loaf.png" class="blackcat-loaf" alt="Cat image 1">
-	<img src="images/blackcat-stretch.png" class="blackcat-stretch"
-	alt="Cat image 2">
-</div>
+	<!--CAT PNGS-------------------------------------------------------------->
+	<!--top cats-->
+	<div class="top-area-cats">
+		<img src="images/blackcat-loaf.png" class="blackcat-loaf" alt="Cat image 1">
+		<img src="images/blackcat-stretch.png" class="blackcat-stretch" alt="Cat image 2">
+	</div>
 
 
 
-<!--WELCOME TITLE & DESCRIPTION------------------------------------------->
-<section class="welcome-box">
-<h2 class="welcome-title">Welcome!</h2>
-	<p class="welcome-description">Catlas is home to cat owners, cat lovers or anyone who is curious to learn more about cats. Choose your journey below!</p>
+	<!--WELCOME TITLE & DESCRIPTION------------------------------------------->
+	<section class="welcome-box">
+	<h2 class="welcome-title">Welcome!</h2>
+		<p class="welcome-description">Catlas is home to cat owners, cat lovers or anyone who is curious to learn more about cats. Choose your journey below!</p>
 	</section>
 
 
 
-<!-- HOMEPAGE MENU SECTION: This is the menu section of my homepage, each menu option has an icon, a button and a description that I grouped together-->
+	<!-- HOMEPAGE MENU SECTION: This is the menu section of my homepage, each menu option has an icon, a button and a description that I grouped together-->
 
-<section class="homepage-menu">
+	<section class="homepage-menu">
 
-	<div class="timeline-box">
-		<img src = images/timeline-purple.png alt="Timeline Icon">
-		<h2 href="timeline.html" class="page-buttons">Paws of Time</h2>
-		<h3 class="timeline-description">From Pharaohs to Furballs</h3>
-	</div>
+		<div class="timeline-box">
+			<img src = images/timeline-purple.png alt="Timeline Icon">
+			<h2 href="timeline.html" class="page-buttons">Paws of Time</h2>
+			<h3 class="timeline-description">From Pharaohs to Furballs</h3>
+		</div>
 
-	<div class="map-box">
-		<img src = images/map-purple.png  alt="Map Icon">
-		<h2 href="map.html" class="page-buttons">Breed Explorer</h2>
-		<h3 class="map-description">Discover the Cats Across the Globe!</h3>
-	</div>
+		<div class="map-box">
+			<img src = images/map-purple.png  alt="Map Icon">
+			<h2 href="map.html" class="page-buttons">Breed Explorer</h2>
+			<h3 class="map-description">Discover the Cats Across the Globe!</h3>
+		</div>
 
-	<div class="faq-box">
-		<img src = images/faq-purple.png alt="FAQ icon">
-		<h2 href="faq.html" class="page-buttons">Curious?</h2>
-		<h3 class="faq-description">Ask a Question!</h3>
-	</div>
-	</section>
+		<div class="faq-box">
+			<img src = images/faq-purple.png alt="FAQ icon">
+			<h2 href="faq.html" class="page-buttons">Curious?</h2>
+			<h3 class="faq-description">Ask a Question!</h3>
+		</div>
+		</section>
 
 <!-- CONTACT SECTION: maybe later, create a footer here instead-->
-<div class="contact-box">
-	<button class="contact-button">About</button>
-	<h3 class="contact-description"></h3>
+	<div class="contact-box">
+		<button class="contact-button">About</button>
+		<h3 class="contact-description"></h3>
+	</div>
+
 </div>
 
-
-<!-----LEARNING RESOURCES--------------------------------------
+<!-----LEARNING RESOURCES--------------------------------------------------------------------------------------------------------------------------------
 CSS PROPERTIES: https://www.w3docs.com/learn-css.html
 CSS POSITIONING: 
 https://www.freecodecamp.org/news/learn-the-basics-the-css-position-property/

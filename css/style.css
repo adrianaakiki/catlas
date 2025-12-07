@@ -25,13 +25,27 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
 .navbar{
     box-sizing:border-box;
     margin: 0;
-    padding: 0;
+    padding: 1rem 3rem;
     Background-color:d9daff;
     display: flex;
     justify-content:space-between;
     align-items:center;
-    padding: 1rem;
+    width: 100%;
+}
 
+.logo {
+    height: 3.3rem;
+    width:auto;
+    cursor:pointer;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2.5rem;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
 }
 
 li,a {

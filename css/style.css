@@ -19,9 +19,28 @@
     margin-top:-2rem;
 }
 
-/*NAVIGATION BAR*/
+/*NAVIGATION BAR
+I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to create my navbar */
 
+.navbar{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    Background-color:d9daff;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1rem;
 
+}
+
+li,a {
+    font-family:"Righteous";
+    font-weight: 400;
+    font-size:1.2rem;
+    color:#292647;
+    text-decoration: none;
+}
 
 
 

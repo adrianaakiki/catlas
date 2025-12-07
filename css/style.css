@@ -115,12 +115,16 @@ line-height: 1.5rem;
 
 /*Here, I changed the background color and added some margins that applies to the entire website*/
 /*troubleshooting layout issues for the homepage browser- reduced body padding to fix layout*/
-body {
+/*the page-wrapper applies to all elements inside my homepage*/
+
+/*NOTE TO SELF: The Rules on 'body' apply to the entire website*/
+.body {
     background-color: #f9f9ff;
     max-width: 1440px;
+    cursor: url('/cursor/paw-cursor.cur'), auto;
+}
+.page-wrapper {
     padding: 2rem;
-    
-cursor: url('/cursor/paw-cursor.cur'), auto;
 }
 
 /*CAT PNGS*/

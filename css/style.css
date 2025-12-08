@@ -56,6 +56,9 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
     cursor: pointer;
 }
 
+.nav-links li {
+    background: rgba(0, 0, 0, 0.1);
+
 li,a {
     font-family:"Righteous";
     font-weight: 400;

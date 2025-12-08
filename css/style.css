@@ -40,8 +40,9 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
     width: 100%;
 }
 
-.logo {
-    height: 
+/*change logo class here and add different logo image because its overriding the homepage logo styling rules*/
+.logo-navbar {
+    height: 3.5rem;
     width:auto;
     cursor:pointer;
 }

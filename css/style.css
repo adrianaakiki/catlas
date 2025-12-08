@@ -117,12 +117,13 @@ line-height: 1.5rem;
 /*troubleshooting layout issues for the homepage browser- reduced body padding to fix layout*/
 /*the page-wrapper applies to all elements inside my homepage*/
 
-/*NOTE TO SELF: The Rules on 'body' apply to the entire website*/
-.body {
+/*NOTE TO SELF: The Rules on 'body' apply to the entire website and there are no '.' before body for styling*/
+body {
     background-color: #f9f9ff;
     max-width: 1440px;
     cursor: url('/cursor/paw-cursor.cur'), auto;
 }
+
 .page-wrapper {
     padding: 2rem;
 }

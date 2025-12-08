@@ -32,7 +32,7 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
 .navbar{
     box-sizing:border-box;
     margin: 0;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 3.5rem;
     Background-color:d9daff;
     display: flex;
     justify-content:space-between;

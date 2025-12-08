@@ -20,7 +20,7 @@
 /*CATLAS LOGO
 - I learned that this was a shortcut to position an element like my logo top center*/
 .logo {
-    height: 6rem;
+    height: 7rem;
     display: block;
     margin: 0 auto;
     margin-top:-2rem;
@@ -63,14 +63,6 @@ li,a {
     color:#292647;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -203,7 +195,7 @@ p{
     text-decoration:none;
 }
 .timeline-description,.faq-description, .map-description {
-    margin-top:-0.5rem;
+    margin-top:0.7rem;
 }
 
 /*BUTTONS HOVER ANIMATION*/
@@ -212,24 +204,24 @@ p{
 .map-box,
 .faq-box,
 .page-buttons,
-.contact-button{
+.about-button{
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .timeline-box:hover, 
 .map-box:hover,
 .faq-box:hover,
-.contact-button:hover{
+.about-button:hover{
     transform:scale(1.1,1.1);
 }
 /*button glow animation*/
 .page-buttons:hover,
-.contact-button:hover{
+.about-button:hover{
     box-shadow: 0 0 40px rgba(66, 14, 255, 0.6);
 }
 
 /*CONTACT BUTTON STYLING SECTION*/
-.contact-button {
+.about-button {
     background-color:#d9daff;
     color:#292647;
     font-family:"Righteous";
@@ -242,7 +234,7 @@ p{
     width:8.5rem;
 }
 
-.contact-box {
+.about-box {
 margin-top: 2rem;
 display:flex;
 flex-direction:column;
@@ -251,6 +243,7 @@ place-items:center;
 text-align:center;
 }
 
+/*Deleted and switched contact button to about button*/
 .contact-description{
     margin-top:0.4rem;
 }

@@ -147,7 +147,7 @@ body {
 
 /*CAT PNGS*/
 
-/*Cat Png Positioning*/
+/*Cat Png Positioning, Use margin-top or margin-bottom to move things around*/
 .top-area-cats{
     display:flex;
     justify-content: space-between;
@@ -306,6 +306,8 @@ Notes:
 - Use rem for fonts
 - avoid absolute positioning as much as possible*/
 
+
+
 /*ABOUT.HTML ELEMENT STYLING*************************************************/
 
 .mycat-1,
@@ -328,7 +330,11 @@ CSS POSITIONING:
 https://www.freecodecamp.org/news/learn-the-basics-the-css-position-property/
 https://www.youtube.com/watch?v=YEmdHbQBCSQ
 https://www.youtube.com/watch?v=i1FeOOhNnwU
-Hover Grow Animation: https://www.youtube.com/watch?v=ho5cwc9rBYk
+BUTTONS & BUTTON STYLING: 
+https://www.w3schools.com/tags/tag_button.asp
+https://www.w3schools.com/css/css3_buttons.asp
+HOVER GROW ANIMATION: https://www.youtube.com/watch?v=ho5cwc9rBYk
+MORE HOVER EFFECTS:https://mimo.org/glossary/css/hover
 NAVBAR & MAKING LINKS:
 https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s
 https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s

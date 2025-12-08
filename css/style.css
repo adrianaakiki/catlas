@@ -28,9 +28,10 @@
 }
 
 /*NAVIGATION BAR
-I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to create my navbar */
+I followed these tutorials https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to create my navbar and https://www.youtube.com/watch?v=U8smiWQ8Seg
+Position:sticky; makes the element stuck on the same position in the screen despite scrolling*/
 
-.navbar{
+.navbar {
     box-sizing:border-box;
     margin: 0;
     padding: 0.5rem 3.5rem;
@@ -39,9 +40,17 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
     justify-content:space-between;
     align-items:center;
     width: 100%;
+    position:sticky;
+    z-index:999
+    top:0;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+/*Note to self: If time- make the nav bar animate up and hide when scrolling with javascript later*/
+
 
 /*I changed the logo class here and uploaded a different logo image because the original logo was overriding the homepage logo styling rules*/
+
 .logo-navbar {
     height: 3.5rem;
     width:auto;
@@ -123,15 +132,13 @@ line-height: 1.5rem;
 /*the page-wrapper applies to all elements inside my homepage*/
 
 /*NOTE TO SELF: The Rules on 'body' apply to the entire website and there are no '.' before body for styling*/
+
 body {
     background-color: #f9f9ff;
     max-width: 1440px;
     cursor: url('/cursor/paw-cursor.cur'), auto;
     
 }
-
-
-
 
 .page-wrapper {
     padding: 2rem;
@@ -209,7 +216,8 @@ p{
 }
 
 /*BUTTONS HOVER ANIMATION*/
-/*menu scale animations on hover*/
+/*menu scale animations on hover       */
+
 .timeline-box,
 .map-box,
 .faq-box,
@@ -296,3 +304,24 @@ Notes:
 - I should use flexbox and percentages for layout
 - Use rem for fonts
 - avoid absolute positioning as much as possible*/
+
+
+
+/*CSS LEARNING RESOURCES*******************************************
+
+CSS PROPERTIES: https://www.w3docs.com/learn-css.html
+CSS POSITIONING: 
+https://www.freecodecamp.org/news/learn-the-basics-the-css-position-property/
+https://www.youtube.com/watch?v=YEmdHbQBCSQ
+https://www.youtube.com/watch?v=i1FeOOhNnwU
+Hover Grow Animation: https://www.youtube.com/watch?v=ho5cwc9rBYk
+NAVBAR & MAKING LINKS:
+https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s
+https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s
+RESPONSVE NAVBAR:
+https://www.youtube.com/watch?v=U8smiWQ8Seg
+Transitions: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using
+Transform basics: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transforms/Using
+------>
+
+/

@@ -66,8 +66,9 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
     text-decoration: none;
     transition: 0.2s ease;
 }
-
-
+.nav-link:hover {
+color:#5245e5
+}
 
 /*POSITIONING NOTE TO SELF: Microsoft live preview is not an accurate representation of a real browser window, 
 use Live Server for accuracy, use shortcut ctrl+0 for 100% default zoom.

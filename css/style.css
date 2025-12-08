@@ -32,7 +32,7 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
 .navbar{
     box-sizing:border-box;
     margin: 0;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 3rem;
     Background-color:d9daff;
     display: flex;
     justify-content:space-between;
@@ -49,22 +49,22 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
 
 .nav-links{
     display: flex;
-    gap: 4.5rem;
     list-style:none;
     margin: 0;
     padding: 0;
     cursor: pointer;
+    gap:2rem;
 }
 
-.nav-links li {
-    background: rgba(0, 0, 0, 0.1);
-
-li,a {
+.nav-link {
+    display:block;
+    padding: 0.5rem 1.5rem; 
     font-family:"Righteous";
     font-weight: 400;
     font-size:1.2rem;
     color:#292647;
     text-decoration: none;
+    transition: 0.2s ease;
 }
 
 

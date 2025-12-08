@@ -24,6 +24,7 @@
     display: block;
     margin: 0 auto;
     margin-top:-2rem;
+    
 }
 
 /*NAVIGATION BAR
@@ -45,8 +46,12 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
     height: 3.5rem;
     width:auto;
     cursor:pointer;
+    transition: filter 0.3s ease;
 }
 
+.logo-navbar:hover{
+    filter:brightness(3);
+}
 .nav-links{
     display: flex;
     list-style:none;
@@ -64,7 +69,7 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
     font-size:1.2rem;
     color:#292647;
     text-decoration: none;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 .nav-link:hover {
 color:#5245e5

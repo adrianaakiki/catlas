@@ -32,7 +32,7 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
 .navbar{
     box-sizing:border-box;
     margin: 0;
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
     Background-color:d9daff;
     display: flex;
     justify-content:space-between;
@@ -40,7 +40,7 @@ I followed this tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to c
     width: 100%;
 }
 
-/*change logo class here and add different logo image because its overriding the homepage logo styling rules*/
+/*I changed the logo class here and uploaded a different logo image because the original logo was overriding the homepage logo styling rules*/
 .logo-navbar {
     height: 3.5rem;
     width:auto;

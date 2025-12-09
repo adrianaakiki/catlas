@@ -29,33 +29,6 @@ body {
     cursor: url('/cursor/paw-cursor.cur'), auto;
 }
 
-/***************************************************************************************************************/
-/***************************************************************************************************************/
-
-
-/*HOMPAGE CATLAS LOGO**********************************/
-/* I learned that this was a shortcut to position an element like my logo top center*/
-.logo {
-    height: 7rem;
-    display: block;
-    margin: 0 auto;
-    margin-top:-2rem;
-}
-/*HOMPAGE CATLAS LOGO**********************************/
-
-
-
-/*HOMPAGE PAGE WRAPPER*********************************/
-.page-wrapper {
-    padding: 2rem 2rem 7rem;
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top:0.5rem;
-}
-
-/*HOMPAGE PAGE WRAPPER*********************************/
-
-
 
 /*NAVIGATION BAR***************************************/
 /*I followed these tutorials 
@@ -109,8 +82,62 @@ Position:sticky; makes the element stuck on the same position in the screen desp
 .nav-link:hover {
 color:#5245e5
 }
-/*NAVIGATION BAR****************************************/
 
+
+/*PAGE FOOTER*******************************************/
+.site-footer{
+    background-color:#1f1e2c;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 0.5rem 3.5rem;
+    min-height:8rem;
+    text-align:center;
+    gap:1.5rem;
+} 
+.back-to-top{
+    color:#d9daff;
+    font-family:"Righteous";
+    font-size:1rem;
+    border:none;
+    cursor: url("/cursor/bent-paw-cursor.cur") ,pointer;
+    padding:0.5rem 1.9rem;
+    border-radius:1.25rem;
+    text-decoration:underline;
+    transition: 0.3s ease;
+}
+
+.back-to-top:hover {
+color:#9396ff
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+/*HOMEPAGE EVERYTHING*******************************************************************************************
+****************************************************************************************************************/
+/*HOMPAGE CATLAS LOGO**********************************/
+/* I learned that this was a shortcut to position an element like my logo top center*/
+.logo {
+    height: 7rem;
+    display: block;
+    margin: 0 auto;
+    margin-top:-2rem;
+}
+
+
+
+/*HOMPAGE PAGE WRAPPER*********************************/
+.page-wrapper {
+    padding: 2rem 2rem 7rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top:0.5rem;
+}
 
 
 /*POSITIONING NOTE TO SELF: Microsoft live preview is not an accurate representation of a real browser window, 
@@ -121,8 +148,6 @@ made and I used it as a guide with manual positioning and creating flexbox layou
 When I opened my browser through live server, everything is zoomed in - even at 100% and the elements
 are too large and off center. I will fix this by adjusting sizes and positioning of some elements and use live server as a guide 
 to review my changes
-
-
 
 
 /*HOME PAGE WELCOME SECTION*****************************/
@@ -161,7 +186,6 @@ display: block;
 text-align: center;
 line-height: 1.5rem;
 }
-/*HOME PAGE WELCOME SECTION*******************************/
 
 
 /*HOME PAGE CAT PNGS*************************************/
@@ -183,7 +207,7 @@ line-height: 1.5rem;
 .blackcat-stretch {
     width: 6rem;
 }
-/*HOME PAGE CAT PNGS*************************************/
+
 
 
 /*FONT-STYLES*********************************************/
@@ -230,8 +254,6 @@ p{
     font-weight:700; 
     color:#292647;
 }
-/*FONT-STYLES*********************************************/
-
 
 
 /*MENU BUTTONS STYLING SECTION****************************/
@@ -253,8 +275,6 @@ p{
 .timeline-description,.faq-description, .map-description {
     margin-top:0.7rem;
 }
-/*MENU BUTTONS STYLING SECTION****************************/
-
 
 
 /*HOME MENU & MISC. BUTTONS HOVER ANIMATION***************/
@@ -278,34 +298,6 @@ p{
 .about-button:hover{
     box-shadow: 0 0 40px rgba(66, 14, 255, 0.6);
 }
-/*HOME MENU & MISC. BUTTONS HOVER ANIMATION*************/
-
-
-
-/*ABOUT BUTTON STYLING SECTION**************************/
-.about-button {
-    background-color:#d9daff;
-    color:#292647;
-    font-family:"Righteous";
-    font-size:1rem;
-    font-weight:900;
-    border:none;
-    cursor: url("/cursor/bent-paw-cursor.cur") ,pointer;
-    padding:0.5rem 1.9rem;
-    border-radius:1.25rem;
-    width:8.5rem;
-    text-decoration:none;
-}
-
-.about-box {
-margin-top: 4rem;
-display:flex;
-flex-direction:column;
-align-items:center;
-place-items:center;
-text-align:center;
-}
-/*ABOUT BUTTON STYLING SECTION**************************/
 
 /*HOMEPAGE MENU LAYOUT SECTION**************************/
 .homepage-menu {
@@ -342,14 +334,35 @@ text-align:center;
 /*HOMEPAGE MENU LAYOUT SECTION**************************/
 
 
-/*RESPONSIVENESS
-Notes:
-- Use relative Units such as rem and em for larger elements 
-- Pixels and absolute positioning do not adapt to different screen sizes 
-- I should use flexbox and percentages for layout
-- Use rem for fonts
-- avoid absolute positioning as much as possible*/
 
+
+
+
+/*ABOUT PAGE EVERYTHING*******************************************************************************************
+****************************************************************************************************************/
+/*ABOUT BUTTON STYLING SECTION**************************/
+.about-button {
+    background-color:#d9daff;
+    color:#292647;
+    font-family:"Righteous";
+    font-size:1rem;
+    font-weight:900;
+    border:none;
+    cursor: url("/cursor/bent-paw-cursor.cur") ,pointer;
+    padding:0.5rem 1.9rem;
+    border-radius:1.25rem;
+    width:8.5rem;
+    text-decoration:none;
+}
+
+.about-box {
+margin-top: 4rem;
+display:flex;
+flex-direction:column;
+align-items:center;
+place-items:center;
+text-align:center;
+}
 
 
 /*ABOUT.HTML PAGE STYLING*******************************/
@@ -423,41 +436,29 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .about-text-box p{
  margin-bottom: 0.5rem;
 }
-/*ABOUT.HTML PAGE STYLING*******************************/
-
-/*PAGE FOOTER*******************************************/
-.site-footer{
-    background-color:#1f1e2c;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    padding: 0.5rem 3.5rem;
-    min-height:8rem;
-    text-align:center;
-    gap:1.5rem;
-} 
-.back-to-top{
-    color:#d9daff;
-    font-family:"Righteous";
-    font-size:1rem;
-    border:none;
-    cursor: url("/cursor/bent-paw-cursor.cur") ,pointer;
-    padding:0.5rem 1.9rem;
-    border-radius:1.25rem;
-    text-decoration:underline;
-    transition: 0.3s ease;
-}
-
-.back-to-top:hover {
-color:#9396ff
-}
-html {
-  scroll-behavior: smooth;
-}
-/*PAGE FOOTER*******************************************/
 
 
+
+/*TIMELINE PAGE EVERYTHING**************************************************************************************
+****************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVENESS
+Notes:
+- Use relative Units such as rem and em for larger elements 
+- Pixels and absolute positioning do not adapt to different screen sizes 
+- I should use flexbox and percentages for layout
+- Use rem for fonts
+- avoid absolute positioning as much as possible*/
 
 
 

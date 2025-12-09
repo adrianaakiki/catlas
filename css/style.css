@@ -405,10 +405,13 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .site-footer{
     background-color:#1f1e2c;
     display: flex;
-    justify-content:space-between;
+    flex-direction:column;
+    justify-content:center;
     align-items:center;
     padding: 0.5rem 3.5rem;
-    height:4rem;
+    min-height:8rem;
+    text-align:center;
+    gap:1.5rem;
 } 
 .back-to-top{
     background-color:#d9daff;

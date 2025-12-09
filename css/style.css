@@ -347,7 +347,13 @@ Notes:
   padding-top: 1rem;
 }
 
+.about-text-box h1{
+ margin-bottom: 0.5rem;
+}
 
+.about-text-box p{
+ margin-bottom: 0.5rem;
+}
 
 
 /*CSS LEARNING RESOURCES*******************************************

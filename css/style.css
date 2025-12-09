@@ -96,7 +96,7 @@ Position:sticky; makes the element stuck on the same position in the screen desp
     transition: 0.3s ease;
     cursor: url("/cursor/bent-paw-cursor.cur"), pointer;
 }
-.back-to-top:hover,
+
 .nav-link:hover {
 color:#5245e5
 }
@@ -416,19 +416,20 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
     gap:1.5rem;
 } 
 .back-to-top{
-    background-color:#d9daff;
-    color:#292647;
+    color:#d9daff;
     font-family:"Righteous";
     font-size:1rem;
-    font-weight:900;
     border:none;
     cursor: url("/cursor/bent-paw-cursor.cur") ,pointer;
     padding:0.5rem 1.9rem;
     border-radius:1.25rem;
-    text-decoration:none;
+    text-decoration:underline;
     transition: 0.3s ease;
 }
 
+.back-to-top:hover {
+color:#9396ff
+}
 html {
   scroll-behavior: smooth;
 }

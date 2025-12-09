@@ -17,15 +17,6 @@
     box-sizing: border-box;
 }
 
-/*CATLAS LOGO
-- I learned that this was a shortcut to position an element like my logo top center*/
-.logo {
-    height: 7rem;
-    display: block;
-    margin: 0 auto;
-    margin-top:-2rem;
-    
-}
 
 /*Here, I changed the background color and added some margins that applies to the entire website*/
 /*troubleshooting layout issues for the homepage browser- reduced body padding to fix layout*/
@@ -36,9 +27,25 @@
 body {
     background-color: #f9f9ff;
     cursor: url('/cursor/paw-cursor.cur'), auto;
-    
 }
 
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+
+/*HOMPAGE CATLAS LOGO**********************************/
+/* I learned that this was a shortcut to position an element like my logo top center*/
+.logo {
+    height: 7rem;
+    display: block;
+    margin: 0 auto;
+    margin-top:-2rem;
+}
+/*HOMPAGE CATLAS LOGO**********************************/
+
+
+
+/*HOMPAGE PAGE WRAPPER*********************************/
 .page-wrapper {
     padding: 2rem 2rem 7rem;
     max-width: 1440px;
@@ -46,9 +53,13 @@ body {
     margin-top:0.5rem;
 }
 
+/*HOMPAGE PAGE WRAPPER*********************************/
 
-/*NAVIGATION BAR
-I followed these tutorials https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to create my navbar and https://www.youtube.com/watch?v=U8smiWQ8Seg
+
+
+/*NAVIGATION BAR***************************************/
+/*I followed these tutorials 
+https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s and https://www.youtube.com/watch?v=U8smiWQ8Seg
 Position:sticky; makes the element stuck on the same position in the screen despite scrolling*/
 
 .navbar {
@@ -67,8 +78,6 @@ Position:sticky; makes the element stuck on the same position in the screen desp
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 /*Note to self: If time- make the nav bar animate up and hide when scrolling with javascript later*/
-
-
 /*I changed the logo class here and uploaded a different logo image because the original logo was overriding the homepage logo styling rules*/
 
 .logo-navbar {
@@ -100,6 +109,9 @@ Position:sticky; makes the element stuck on the same position in the screen desp
 .nav-link:hover {
 color:#5245e5
 }
+/*NAVIGATION BAR****************************************/
+
+
 
 /*POSITIONING NOTE TO SELF: Microsoft live preview is not an accurate representation of a real browser window, 
 use Live Server for accuracy, use shortcut ctrl+0 for 100% default zoom.
@@ -110,9 +122,11 @@ When I opened my browser through live server, everything is zoomed in - even at 
 are too large and off center. I will fix this by adjusting sizes and positioning of some elements and use live server as a guide 
 to review my changes
 
-note: resize elements to smaller: logo, images, etc*/
 
-/*WELCOME SECTION: Using manual positioning for overlapping items*/
+
+
+/*HOME PAGE WELCOME SECTION*****************************/
+/*Using manual positioning for overlapping items*/
 
 .welcome-box{
     width:100%;
@@ -147,11 +161,10 @@ display: block;
 text-align: center;
 line-height: 1.5rem;
 }
+/*HOME PAGE WELCOME SECTION*******************************/
 
 
-
-/*CAT PNGS*/
-
+/*HOME PAGE CAT PNGS*************************************/
 /*Cat Png Positioning, Use margin-top or margin-bottom to move things around*/
 .top-area-cats{
     display:flex;
@@ -170,12 +183,14 @@ line-height: 1.5rem;
 .blackcat-stretch {
     width: 6rem;
 }
+/*HOME PAGE CAT PNGS*************************************/
 
-/*FONT-STYLES*/
+
+/*FONT-STYLES*********************************************/
 /*This is how you change a font in css
 FONT SIZES & RESPONSIVENESS NOTE: For responsiveness, use rem instead of px for font sizes, 
 for large headings and smaller screens use pw*/
-
+/*APPLIES TO ENTIRE SITE*/
 h1 {
     font-family:"Righteous";
     font-size: 2rem;
@@ -215,9 +230,11 @@ p{
     font-weight:700; 
     color:#292647;
 }
+/*FONT-STYLES*********************************************/
 
 
-/*MENU BUTTONS STYLING SECTION*/
+
+/*MENU BUTTONS STYLING SECTION****************************/
 /*note to self: add a different pointer cursor*/
 
 .page-buttons {
@@ -236,10 +253,12 @@ p{
 .timeline-description,.faq-description, .map-description {
     margin-top:0.7rem;
 }
+/*MENU BUTTONS STYLING SECTION****************************/
 
-/*BUTTONS HOVER ANIMATION*/
-/*menu scale animations on hover       */
 
+
+/*HOME MENU & MISC. BUTTONS HOVER ANIMATION***************/
+/*menu scale animations on hoveR*/
 .timeline-box,
 .map-box,
 .faq-box,
@@ -259,8 +278,11 @@ p{
 .about-button:hover{
     box-shadow: 0 0 40px rgba(66, 14, 255, 0.6);
 }
+/*HOME MENU & MISC. BUTTONS HOVER ANIMATION*************/
 
-/*ABOUT BUTTON STYLING SECTION*/
+
+
+/*ABOUT BUTTON STYLING SECTION**************************/
 .about-button {
     background-color:#d9daff;
     color:#292647;
@@ -283,13 +305,9 @@ align-items:center;
 place-items:center;
 text-align:center;
 }
+/*ABOUT BUTTON STYLING SECTION**************************/
 
-/*Deleted and switched contact button to about button*/
-.contact-description{
-    margin-top:0.4rem;
-}
-
-/*HOMEPAGE MENU LAYOUT SECTION*/
+/*HOMEPAGE MENU LAYOUT SECTION**************************/
 .homepage-menu {
     display: flex;
     justify-content:space-evenly;
@@ -299,8 +317,12 @@ text-align:center;
 }
 
 /*Fixing flexbox alignment to apply evenly to all images that are different sizes*/
-/*note to self: the map icon was poorly aligned on the page because it was poorly cropped before uploading the image source, that is why flexbox did not work as well*/
-/*the height adjustment on images fixed the issue to line the menu buttons up, and the object-fit contain prevents the images from stretching weirdly*/
+/*note to self: the map icon was poorly aligned on the page because 
+it was poorly cropped before uploading the image source, that is why 
+flexbox did not work as well. 
+
+he height adjustment on images fixed the issue to line the menu buttons up, 
+and the object-fit contain prevents the images from stretching weirdly*/
 
 .homepage-menu img {
     width:20rem;
@@ -317,6 +339,7 @@ flex-direction: column;
 align-items:center;
 text-align:center;
 }
+/*HOMEPAGE MENU LAYOUT SECTION**************************/
 
 
 /*RESPONSIVENESS
@@ -329,15 +352,13 @@ Notes:
 
 
 
-/*ABOUT.HTML PAGE STYLING*************************************************/
-
+/*ABOUT.HTML PAGE STYLING*******************************/
 .about-section {
     padding: 4rem 4rem 8rem;
     display: flex;
     justify-content:center;
     align-items: center;
     box-sizing: border-box;
-
 }
 
 .about-group {
@@ -402,8 +423,9 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .about-text-box p{
  margin-bottom: 0.5rem;
 }
+/*ABOUT.HTML PAGE STYLING*******************************/
 
-/*PAGE FOOTER*****************************************************/
+/*PAGE FOOTER*******************************************/
 .site-footer{
     background-color:#1f1e2c;
     display: flex;
@@ -433,10 +455,14 @@ color:#9396ff
 html {
   scroll-behavior: smooth;
 }
+/*PAGE FOOTER*******************************************/
 
 
 
-/*CSS LEARNING RESOURCES*******************************************
+
+
+/***********************************************************************************************************/
+/*CSS LEARNING RESOURCES*************************************************************************************
 
 CSS PROPERTIES: https://www.w3docs.com/learn-css.html
 CSS POSITIONING: 

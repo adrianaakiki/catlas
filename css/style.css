@@ -135,13 +135,14 @@ line-height: 1.5rem;
 
 body {
     background-color: #f9f9ff;
-    max-width: 1440px;
     cursor: url('/cursor/paw-cursor.cur'), auto;
     
 }
 
 .page-wrapper {
     padding: 2rem;
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top:0.5rem;
 }
 
@@ -153,7 +154,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: -4.5rem;
-    padding: 0rem 3rem;
+    padding: 0rem 4rem;
 }
 
 .blackcat-stretch{

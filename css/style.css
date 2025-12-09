@@ -175,7 +175,7 @@ h1 {
     font-family:"Righteous";
     font-size: 2rem;
     font-weight:400;
-    color:d9daff;
+    color:#292647;
 }
 h2{
     font-family: "Righteous";
@@ -239,7 +239,7 @@ p{
     box-shadow: 0 0 40px rgba(66, 14, 255, 0.6);
 }
 
-/*CONTACT BUTTON STYLING SECTION*/
+/*ABOUT BUTTON STYLING SECTION*/
 .about-button {
     background-color:#d9daff;
     color:#292647;
@@ -308,7 +308,17 @@ Notes:
 
 
 
-/*ABOUT.HTML ELEMENT STYLING*************************************************/
+/*ABOUT.HTML PAGE STYLING*************************************************/
+
+.about-section {
+    padding: 4rem 4rem;
+
+    
+}
+
+
+
+
 
 .mycat-1,
 .mycat-2 {
@@ -316,10 +326,11 @@ Notes:
     height:100%;
     width: 100%;
     object-fit:cover;
-    width: 14rem;
-    height:14rem;
+    width: 18rem;
+    height:18rem;
     border-radius:2rem;
 }
+
 
 
 

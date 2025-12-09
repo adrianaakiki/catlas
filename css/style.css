@@ -484,6 +484,16 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+/*Decorative line */
+/*This will visually split the title with the slideshow */
+.decorative-line {
+  width: 90%;
+  max-width: 1440px;
+  height: 2px;
+  background-color: #292647;
+  border-radius:1rem;
+  margin: 1rem auto 2rem auto; 
+}
 
 /*RESPONSIVENESS
 Notes:

@@ -463,10 +463,18 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   cursor:url("/cursor/bent-paw-cursor.cur"), pointer;
   transition: all 0.25s ease;
 }
+/*Era buttons hover effect color fill */
+.era-button:hover {
+  background: #292647;
+  color: #fff;
+  transform: scale(1.03);
+}
 
-
-
-
+.era-button--active {
+  background: #292647;
+  color: #fff;
+  border-color: #292647;
+}
 
 
 

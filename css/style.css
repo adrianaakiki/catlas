@@ -27,6 +27,26 @@
     
 }
 
+/*Here, I changed the background color and added some margins that applies to the entire website*/
+/*troubleshooting layout issues for the homepage browser- reduced body padding to fix layout*/
+/*the page-wrapper applies to all elements inside my homepage*/
+
+/*NOTE TO SELF: The Rules on 'body' apply to the entire website and there are no '.' before body for styling*/
+
+body {
+    background-color: #f9f9ff;
+    cursor: url('/cursor/paw-cursor.cur'), auto;
+    
+}
+
+.page-wrapper {
+    padding: 2rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top:0.5rem;
+}
+
+
 /*NAVIGATION BAR
 I followed these tutorials https://www.youtube.com/watch?v=PwWHL3RyQgk&t=249s to create my navbar and https://www.youtube.com/watch?v=U8smiWQ8Seg
 Position:sticky; makes the element stuck on the same position in the screen despite scrolling*/
@@ -127,24 +147,7 @@ text-align: center;
 line-height: 1.5rem;
 }
 
-/*Here, I changed the background color and added some margins that applies to the entire website*/
-/*troubleshooting layout issues for the homepage browser- reduced body padding to fix layout*/
-/*the page-wrapper applies to all elements inside my homepage*/
 
-/*NOTE TO SELF: The Rules on 'body' apply to the entire website and there are no '.' before body for styling*/
-
-body {
-    background-color: #f9f9ff;
-    cursor: url('/cursor/paw-cursor.cur'), auto;
-    
-}
-
-.page-wrapper {
-    padding: 2rem;
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top:0.5rem;
-}
 
 /*CAT PNGS*/
 
@@ -338,6 +341,12 @@ Notes:
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+.about-text-box{
+  flex: 1;
+  line-height: 1.7;
+  padding-top: 1rem;
+}
+
 
 
 
@@ -360,6 +369,8 @@ RESPONSVE NAVBAR:
 https://www.youtube.com/watch?v=U8smiWQ8Seg
 Transitions: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using
 Transform basics: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transforms/Using
+POSITIONING ABOUT US PAGE TUTORIAL:
+https://www.youtube.com/watch?v=Rqo_1TV7wQs
 ------>
 
 /

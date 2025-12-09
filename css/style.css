@@ -320,8 +320,8 @@ Notes:
 
 .about-group {
     display:flex;
-    gap: 3rem;
-    align-items: stretch;
+    gap: 4rem;
+    align-items: center;
 }
 
 .my-cat-images{

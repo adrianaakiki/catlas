@@ -96,6 +96,7 @@ Position:sticky; makes the element stuck on the same position in the screen desp
     transition: 0.3s ease;
     cursor: url("/cursor/bent-paw-cursor.cur"), pointer;
 }
+.back-to-top:hover,
 .nav-link:hover {
 color:#5245e5
 }
@@ -193,12 +194,28 @@ h3{
     font-weight:400;
     color:#292647;
 }
+
+h4{
+    font-family: "Righteous";
+    font-size:1rem;
+    font-weight:400;
+    color:d9daff;
+}
+
+h5{ 
+    font-family: "Righteous";
+    font-size:0.75rem;
+    font-weight:400;
+    color:d9daff;
+}
+
 p{
     font-family:"oxygen";
     font-size: 0.9rem;
     font-weight:700; 
     color:#292647;
 }
+
 
 /*MENU BUTTONS STYLING SECTION*/
 /*note to self: add a different pointer cursor*/
@@ -383,6 +400,31 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .about-text-box p{
  margin-bottom: 0.5rem;
 }
+
+/*PAGE FOOTER*****************************************************/
+.site-footer{
+    background-color:#1f1e2c;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0.5rem 3.5rem;
+    height:4rem;
+} 
+.back-to-top{
+    background-color:#d9daff;
+    color:#292647;
+    font-family:"Righteous";
+    font-size:1rem;
+    font-weight:900;
+    border:none;
+    cursor: url("/cursor/bent-paw-cursor.cur") ,pointer;
+    padding:0.5rem 1.9rem;
+    border-radius:1.25rem;
+    text-decoration:none;
+    transition: 0.3s ease;
+}
+    
+
 
 
 /*CSS LEARNING RESOURCES*******************************************

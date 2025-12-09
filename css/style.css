@@ -332,10 +332,12 @@ Notes:
 /*ABOUT.HTML PAGE STYLING*************************************************/
 
 .about-section {
-    padding: 4rem 4rem;
+    padding: 4rem 4rem 8rem;
     display: flex;
     justify-content:center;
     align-items: center;
+    box-sizing: border-box;
+
 }
 
 .about-group {
@@ -426,7 +428,10 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
     text-decoration:none;
     transition: 0.3s ease;
 }
-    
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 

@@ -476,7 +476,14 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   border-color: #292647;
 }
 
-
+.paws-of-time h1 {
+  text-align: center;
+  font-family: "Righteous";
+  font-size: 2.5rem;
+  color: #292647; 
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
 
 /*RESPONSIVENESS
 Notes:

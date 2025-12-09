@@ -316,11 +316,17 @@ Notes:
 
 .about-section {
     padding: 4rem 4rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 .about-group {
+    max-width:60rem;
+    width:100%;
+    margin:0 auto;
     display:flex;
-    gap: 4rem;
+    gap: 5rem;
     align-items: center;
 }
 
@@ -367,6 +373,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   flex: 1;
   line-height: 1.7;
   padding-top: 1rem;
+  margin-top:-3rem;
 }
 
 .about-text-box h1{

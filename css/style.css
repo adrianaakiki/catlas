@@ -446,7 +446,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .era-buttons {
   display: flex;
   justify-content: center;
-  gap: 1.2rem;
+  gap: 1.3rem;
   margin-top: 2rem;
   flex-wrap: wrap;
 }
@@ -467,7 +467,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .era-button:hover {
   background: #292647;
   color: #fff;
-  transform: scale(1.03);
+  transform: scale(1.15);
 }
 
 .era-button--active {

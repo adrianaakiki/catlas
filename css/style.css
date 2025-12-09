@@ -55,13 +55,13 @@ Position:sticky; makes the element stuck on the same position in the screen desp
     box-sizing:border-box;
     margin: 0;
     padding: 0.5rem 3.5rem;
-    Background-color:d9daff;
+    Background-color:#d9daff;
     display: flex;
     justify-content:space-between;
     align-items:center;
     width: 100%;
     position:sticky;
-    z-index:999
+    z-index:999;
     top:0;
     transition: transform 0.3s ease;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);

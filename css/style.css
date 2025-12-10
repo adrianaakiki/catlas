@@ -248,6 +248,13 @@ h5{
     color:d9daff;
 }
 
+h6 {
+    font-family: "Righteous";
+    font-size:1.4rem;
+    font-weight:400;
+    color: #292647;
+}
+
 p{
     font-family:"oxygen";
     font-size: 0.9rem;
@@ -494,6 +501,27 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   border-radius:1rem;
   margin: 1rem auto 2rem auto; 
 }
+
+.era-content {
+  max-width: 70rem;   
+  margin: 0 auto;
+  padding: 4rem 4rem 6rem;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*RESPONSIVENESS
 Notes:

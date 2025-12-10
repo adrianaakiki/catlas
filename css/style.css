@@ -450,14 +450,17 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 /*TIMELINE PAGE EVERYTHING**************************************************************************************
 ****************************************************************************************************************/
 
+.timeline-wrapper{
+    padding-top: 3rem;
+}
+
+
 /*page title*/
 .paws-of-time h1 {
   text-align: center;
   font-family: "Righteous";
   font-size: 2.5rem;
   color: #292647; 
-  margin-top: 1.5rem;
-
 }
 
 
@@ -466,7 +469,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -533,7 +536,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   display:block;
 
 }
-/*******************************************************************************
+
 /*the image inside the box*/
 .era-image img {
   height:100%;

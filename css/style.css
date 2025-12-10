@@ -542,7 +542,13 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
 }
-
+/*setting a custom size for origins image because its much larger than the rest of the images */
+.origins-image img{
+  width: 80%;
+  height: 80%;
+  border-radius:1.5rem;
+  
+}
 
 .era-text {
   flex: 1;

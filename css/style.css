@@ -612,7 +612,10 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
+/*removing the weird triangles*/
+.faq-item summary {
+  list-style: none;
+}
 
 
 /*RESPONSIVENESS

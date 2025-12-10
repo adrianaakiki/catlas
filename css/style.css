@@ -522,7 +522,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 
 .era-content > .era-content--active {
   display: flex;        
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 4rem;
 }

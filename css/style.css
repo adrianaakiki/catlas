@@ -449,12 +449,23 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 /*TIMELINE PAGE EVERYTHING**************************************************************************************
 ****************************************************************************************************************/
 
+/*page title*/
+.paws-of-time h1 {
+  text-align: center;
+  font-family: "Righteous";
+  font-size: 2.5rem;
+  color: #292647; 
+  margin-top: 1.5rem;
+
+}
+
+
 /*Era buttons positioning*/
 .era-buttons {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -470,6 +481,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   cursor:url("/cursor/bent-paw-cursor.cur"), pointer;
   transition: all 0.25s ease;
 }
+
 /*Era buttons hover effect color fill */
 .era-button:hover {
   background: #292647;
@@ -483,18 +495,11 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   border-color: #292647;
 }
 
-.paws-of-time h1 {
-  text-align: center;
-  font-family: "Righteous";
-  font-size: 2.5rem;
-  color: #292647; 
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
+
 /*Decorative line */
 /*This will visually split the title with the slideshow */
 .decorative-line {
-  width:90%;
+  width:85%;
   max-width: 1440px;
   height: 2px;
   background-color: #302e49;
@@ -502,10 +507,11 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   margin: 1rem auto 2rem auto; 
 }
 
+
 .era-content {
   max-width: 70rem;   
   margin: 0 auto;
-  padding: 4rem 4rem 6rem;
+  padding: 1rem 4rem 6rem;
   box-sizing: border-box;
 }
 

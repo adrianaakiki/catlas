@@ -509,8 +509,16 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   box-sizing: border-box;
 }
 
+.era-content > div {
+  display: none; 
+}
 
-
+.era-content > .era-content--active {
+  display: flex;        
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
 
 
 

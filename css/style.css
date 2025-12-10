@@ -38,7 +38,7 @@ Position:sticky; makes the element stuck on the same position in the screen desp
 .navbar {
     box-sizing:border-box;
     margin: 0;
-    padding: 0.5rem 3.5rem;
+    padding: 0.3rem 3.5rem;
     Background-color:#d9daff;
     display: flex;
     justify-content:space-between;
@@ -54,7 +54,7 @@ Position:sticky; makes the element stuck on the same position in the screen desp
 /*I changed the logo class here and uploaded a different logo image because the original logo was overriding the homepage logo styling rules*/
 
 .logo-navbar {
-    height: 3.5rem;
+    height: 2.6rem;
     width:auto;
     cursor: url("/cursor/bent-paw-cursor.cur"), pointer;
 }
@@ -379,6 +379,7 @@ text-align:center;
     justify-content:center;
     align-items: center;
     box-sizing: border-box;
+    margin-top:1.5rem;
 }
 
 .about-group {
@@ -511,7 +512,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .era-content {
   max-width: 70rem;   
   margin: 0 auto;
-  padding: 1rem 4rem 6rem;
+  padding: 0.5rem 4rem 7rem;
   box-sizing: border-box;
 }
 
@@ -523,19 +524,18 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   display: flex;        
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .era-image {
   position: relative;
   border-radius: 2rem;
-
   overflow: hidden;
   flex-shrink: 0;
 }
 
 .era-image img {
-  width: 18rem;
+  width: 21rem;
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -546,6 +546,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .era-text {
   flex: 1;
   line-height: 1.7;
+  max-width:35rem;
 }
 
 /* Small title like "Origins ~7500 BCE" */

@@ -59,7 +59,22 @@
   <div class="decorative-line"></div>
 
   <!--Timeline Content------------------------------------->
-  <div class="origins-content">
+  <!--Notes:'data-' allows you to create your own attribute
+  that javascript can later read. 
+  
+  spaces between class
+  names separates them to more than one class name 
+  
+  BEM - A naming system that makes css simple, avoids conflicts
+  block: the main component 'era-button'
+  element: a piece inside the component
+  modifier:a variation or special state '--active'
+  
+  --->
+
+<section class="era-content">
+
+  <div class="origins-content era-content--active" data-era="origins">
 
     <div class="origins-image">
      <img src="timeline-images/7500bce.png" alt="Origins Image">
@@ -75,7 +90,7 @@
   </div>
 
 
-  <div class="4000bce-content">
+  <div class="4000bce-content" data-era="4000bce">
 
     <div class="4000bce-image">
      <img src="timeline-images/4000bce.jpg" alt="4000bce Image">
@@ -91,7 +106,7 @@
   </div>
 
 
-  <div class="1500bce-content">
+  <div class="1500bce-content" data-era="1500bce">
 
     <div class="1500bce-image">
      <img src="timeline-images/1500bce.jpg" alt="1500bce Image">
@@ -107,7 +122,7 @@
   </div>
 
 
-  <div class="700ce-content">
+  <div class="700ce-content" data-era="700ce">
 
     <div class="700ce-image">
      <img src="timeline-images/700ce.png" alt="700ce Image">
@@ -123,10 +138,10 @@
   </div>
 
 
-    <div class="1871-content">
+    <div class="1871-content" data-era="1871">
 
     <div class="1871-image">
-     <img src="timeline-images/1871-2.jpg" alt="1871 Image">
+     <img src="timeline-images/1871.jpg" alt="1871 Image">
     </div>
 
      <div class="1871-text">
@@ -140,7 +155,7 @@
 
 
 
-    <div class="modern-content">
+    <div class="modern-content" data-era="modern">
 
     <div class="modern-image">
      <img src="timeline-images/modern.png" alt="Modern Image">
@@ -155,6 +170,7 @@
     </div>
   </div>
 
+</section>
 
 
 <!--FOOTER-------------------------------------------->
@@ -184,5 +200,8 @@ https://ayaka05233.github.io/cheese_archive_website/
 
 Footer tutorial:https://www.youtube.com/watch?v=dlsjiphBris
 Back to-top-button tutorial: https://www.youtube.com/watch?v=znZAmDSNDg8
+
+BEM:
+https://www.youtube.com/watch?v=aKenj9ZQwJg
 >
 

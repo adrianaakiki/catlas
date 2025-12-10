@@ -569,7 +569,7 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .faq-page-wrapper {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 3 1.5rem 1rem 1rem;
+  padding: 1.5rem; 1.5rem 1rem 1rem;
   padding-bottom: 100rem;
   text-align: center;
 }
@@ -585,13 +585,13 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   line-height: 1.6;
 }
 
-.faq-gif{
-  max-width: 18rem;
+.faq-gif img {
+  max-width: 25rem;
   width: 100%;
   display: block;
-  margin: 0 auto;
-  border-radius: 2rem;
-  padding-bottom: 3rem;
+  margin: 0 auto 3rem;
+  border-radius: 1.5rem;
+ 
 }
 
 .faq-list {
@@ -615,7 +615,22 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 /*removing the weird triangles*/
 .faq-item summary {
   list-style: none;
+  cursor: url("/cursor/bent-paw-cursor.cur"), pointer;
+  font-weight: 700;
+  font-size: 1.1rem;
+  align-items: center;
 }
+
+.faq-item p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  padding-top: 0.2rem;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+
 
 
 /*RESPONSIVENESS

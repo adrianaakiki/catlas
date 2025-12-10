@@ -1,6 +1,6 @@
 
 
-//Timeline Page Interactive Section............................................
+//Timeline Page Interactive Section------------
 
 //note: I previously used 'var', and removed it and used 'let' instead to avoid variable leaks and bugs in the long run
 // This links and grabs my elements from my html that are in the class 'era-button' and 'era-content'
@@ -32,6 +32,13 @@ for (let i = 0; i < buttons.length; i++) {
 }
 //This removes and adds the era content, images and text on click so that only the selected era is shown on the screen 
 //For my timeline, it switches between different eras and shows only the content that matches the selected button.
+
+//Each era button detects a click using the 'EventListener' feature.
+//When a button is clicked, the script adds color fill styling to the clicked button and removes it from the rest of the buttons.
+//The JavaScript goes through the different panels and hides the ones that don't match the selected button, but it shows the data-era that matches the selected button.
+
+
+// TIMELINE REFERENCES--------------------
 // resource for removing and adding class: https://www.youtube.com/watch?v=lhLh8N9YN7E&t=108s
 // javascript basics: https://www.youtube.com/watch?v=W6NZfCO5SIk&t=871s
 // hide and show javascript: https://www.youtube.com/watch?v=-oQnDrNzTTA

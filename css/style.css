@@ -649,7 +649,8 @@ color:#3325c7
 /*MAP PAGE**************************************************************************************
 ****************************************************************************************************************/
 .map-page-wrapper{
-  padding:1rem;
+  padding:2rem;
+  padding-top:2rem;
   padding-bottom:15rem;
   margin:0 auto;
   text-align:center;
@@ -663,7 +664,13 @@ color:#3325c7
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
+.map-page-title {
+  padding-bottom:0.5rem;
+}
+.map-page-intro {
+  padding-bottom:1rem;
+  font-size:1rem;
+}
 
 
 

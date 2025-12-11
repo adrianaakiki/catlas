@@ -640,8 +640,12 @@ padding-top: 4rem;
 
 .faq-conclusion p{
 padding-top: 1rem;
-
 }
+
+.faq-contact a{
+color:#3325c7
+}
+
 
 /*RESPONSIVENESS
 Notes:

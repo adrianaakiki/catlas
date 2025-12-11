@@ -22,6 +22,11 @@
 <!--My Custom Browser Favicon-->
 <link rel="icon" type="image/png" href="images/paw-icon.png">
 
+<!--LEAFLET LINK-->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
 
 </head>
 <body>
@@ -43,12 +48,6 @@
 </header>
 
 <!--note to self: main class=page content, section class = section of a page, then div class= bits of a page -->
-<!--FOOTER---------------------------->
-<footer class="site-footer">
-  <a href="#top" class="back-to-top">Back to top</a>
-  <h4>Website by Adriana Akiki, 2025</h4>
-
-</footer>
 
 
 <!--BREED MAP PAGE CONTENT ------------------------------------------->
@@ -64,21 +63,34 @@
     <div id="map"></div>
   </section>
 
-  
+
 </main>
 
 
 
 <!--JAVASCRIPT keep at the end ------------------------------------------>
-<script src="script.js"></script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+<!--always keep this at the end to avoid load errors for leaflet-->
+  <script src="script.js"></script>
 
 </body>
 </html>
 
+<!--FOOTER---------------------------->
+<footer class="site-footer">
+  <a href="#top" class="back-to-top">Back to top</a>
+  <h4>Website by Adriana Akiki, 2025</h4>
+
+</footer>
+
 
 <!--RESOURCES------------------------------------------
-Leaflet
-https://leafletjs.com/index.html
+Leaflet: https://leafletjs.com/index.html
+Leaflet tutorial: https://leafletjs.com/examples/quick-start/
 Styled World Map Labels: https://leaflet-extras.github.io/leaflet-providers/preview/
 CartoDB.Voyager
 Styled World Map No labels: https://leaflet-extras.github.io/leaflet-providers/preview/

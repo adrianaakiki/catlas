@@ -67,3 +67,7 @@ L.tileLayer(
   }
 ).addTo(map);
 
+// Note: Add Pins with pop up card, image and text next 
+
+
+// Note: Add mobile version for later 

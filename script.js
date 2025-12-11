@@ -46,3 +46,24 @@ for (let i = 0; i < buttons.length; i++) {
 // eventlisteners javascript: https://www.youtube.com/watch?v=i_8NQuEAOmg
 // onclick javascript: https://www.youtube.com/watch?v=eHPLTDOAggc
 // I also inspected and had a look at the cheese archive website from the previous student's project as an idea as I was doing a similar feature where info changes on the screen, thats determined by each button https://ayaka05233.github.io/cheese_archive_website/ source:Ayaka Iwaki
+
+
+//MAP PAGE INTERACTIVE SECTION-------------------
+// 'map' matches the map id from the html, following leaflet's tutorial https://leafletjs.com/examples/quick-start/
+const map = L.map("map", {
+  zoomControl: true,
+  scrollWheelZoom: false
+}).setView([20, 0], 2); 
+
+
+// Adding styled map tile https://leaflet-extras.github.io/leaflet-providers/preview/#filter=CartoDB.Voyager
+L.tileLayer(
+  "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+  {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+    subdomains: "abcd",
+    maxZoom: 20
+  }
+).addTo(map);
+

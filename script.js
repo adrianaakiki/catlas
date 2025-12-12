@@ -38,7 +38,7 @@ for (let i = 0; i < buttons.length; i++) {
 //The JavaScript goes through the different panels and hides the ones that don't match the selected button, but it shows the data-era that matches the selected button.
 
 
-// TIMELINE REFERENCES--------------------
+// TIMELINE REFERENCES------------------------------------------------
 // resource for removing and adding class: https://www.youtube.com/watch?v=lhLh8N9YN7E&t=108s
 // javascript basics: https://www.youtube.com/watch?v=W6NZfCO5SIk&t=871s
 // hide and show javascript: https://www.youtube.com/watch?v=-oQnDrNzTTA
@@ -48,7 +48,7 @@ for (let i = 0; i < buttons.length; i++) {
 // I also inspected and had a look at the cheese archive website from the previous student's project as an idea as I was doing a similar feature where info changes on the screen, thats determined by each button https://ayaka05233.github.io/cheese_archive_website/ source:Ayaka Iwaki
 
 
-//MAP PAGE INTERACTIVE SECTION-------------------
+//MAP PAGE INTERACTIVE SECTION----------------------------------------
 // 'map' matches the map id from the html, following leaflet's tutorial https://leafletjs.com/examples/quick-start/
 const map = L.map("map", {
   zoomControl: true,
@@ -67,7 +67,17 @@ L.tileLayer(
   }
 ).addTo(map);
 
-// Note: Add Pins with pop up card, image and text next 
+//MAP CAT BREEDS AND MARKERS------------------
+
+
+
+
 
 
 // Note: Add mobile version for later 
+
+//MAP REFERENCES------------------------------- 
+//VAR vs CONST https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+// map markers: https://www.youtube.com/watch?v=wVnimcQsuwk&list=PLGHe6Moaz52PUNP4DtIshALDogSURIlYB
+// map popups: https://www.youtube.com/watch?v=OYjFR_CGV8o&list=PLGHe6Moaz52PUNP4DtIshALDogSURIlYB&index=2
+// marker icon, shadows: https://www.youtube.com/watch?v=wnsEYm9hF0o&list=PLGHe6Moaz52PUNP4DtIshALDogSURIlYB&index=3

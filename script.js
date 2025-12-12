@@ -68,8 +68,30 @@ L.tileLayer(
 ).addTo(map);
 
 //MAP CAT BREEDS AND MARKERS------------------
+const breeds = [
+  {
+    name: "Maine Coon",
+    location: "Maine, United States",
+    coords: [45.0, -69.0],
+    img: "map-images/maine-coon.jpg",
+    text: "description."
+  },
+];
 
+// This loops through the breeds and creates one Leaflet marker for each
+breeds.forEach((breed) => {
+  const marker = L.marker(breed.coords).addTo(map);
 
+  // image and text bindpop up that links to html
+  marker.bindPopup(`
+    <div class="breed-popup">
+      <img src="${breed.img}" alt="${breed.name}" class="breed-popup-img" />
+      <h3 class="breed-popup-name">${breed.name}</h3>
+      <p class="breed-popup-location">${breed.location}</p>
+      <p class="breed-popup-text">${breed.text}</p>
+    </div>
+  `);
+});
 
 
 

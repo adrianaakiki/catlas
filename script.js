@@ -109,7 +109,7 @@ breeds.forEach((breed) => {
   marker.bindPopup(`
     <div class="breed-popup">
       <img src="${breed.img}" alt="${breed.name}" class="breed-popup-img" />
-      <h3 class="breed-popup-name">${breed.name}</h3>
+      <h6 class="breed-popup-name">${breed.name}</h6>
       <p class="breed-popup-location">${breed.location}</p>
       <p class="breed-popup-text">${breed.text}</p>
     </div>

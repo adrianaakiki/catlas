@@ -97,7 +97,21 @@ const breeds = [
     coords: [56.0, -4.0], 
     img: "map-images/scottish-fold.jpg",
     text: "description."
-  }
+  },
+  {
+  name: "Persian",
+  location: "Iran, Tehran",
+  coords: [35.6892, 51.3890],
+  img: "map-images/persian.jpg", 
+  text: "description."
+},
+{
+  name: "Egyptian Mau",
+  location: "Egypt, Cairo",
+  coords: [30.0444, 31.2357],
+  img: "map-images/egyptian-mau.jpg",
+  text: "description."
+}
 ];
 
 

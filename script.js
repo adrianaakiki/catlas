@@ -68,6 +68,7 @@ L.tileLayer(
 ).addTo(map);
 
 //MAP CAT BREEDS AND MARKERS------------------
+
 const breeds = [
   {
     name: "Maine Coon",
@@ -75,8 +76,30 @@ const breeds = [
     coords: [45.0, -69.0],
     img: "map-images/maine-coon.jpg",
     text: "description."
+ },
+  {
+    name: "Russian Blue",
+    location: "Arkhangelsk, Northern Russia",
+    coords: [64.54, 40.54], 
+    img: "map-images/russian-blue.jpg",
+    text: "description."
   },
+  {
+    name: "Siamese",
+    location: "Thailand",
+    coords: [13.7563, 100.5018], 
+    img: "map-images/siamese.jpg",
+    text: "description"
+  },
+  {
+    name: "Scottish Fold",
+    location: "Scotland",
+    coords: [56.0, -4.0], 
+    img: "map-images/scottish-fold.jpg",
+    text: "description."
+  }
 ];
+
 
 // This loops through the breeds and creates one Leaflet marker for each
 breeds.forEach((breed) => {

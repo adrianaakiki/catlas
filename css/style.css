@@ -83,6 +83,27 @@ Position:sticky; makes the element stuck on the same position in the screen desp
 color:#5245e5
 }
 
+.nav-toggle{
+  display:none;
+}
+
+
+/*RESPONSIVE NAV BAR TABLET*/
+@media (max-width: 1024px) {}
+
+
+
+/*RESPONSIVE NAV BAR MOBILE*/
+@media (max-width: 768px){}
+
+/*HAMBURGER NAV BAR*/
+/*Tutorial:https://www.youtube.com/watch?v=Ovl3IxTwS18&t=1s
+Hamburger character: https://www.piliapp.com/symbol/menu/
+
+
+
+
+
 
 /*PAGE FOOTER*******************************************/
 .site-footer{
@@ -115,7 +136,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/*RESPONSIVE FOOTER TABLET*/
+@media (max-width: 1024px) {}
 
+
+
+/*RESPONSIVE FOOTER MOBILE*/
+@media (max-width: 768px){}
 
 
 /*HOMEPAGE*******************************************************************************************
@@ -338,9 +365,16 @@ flex-direction: column;
 align-items:center;
 text-align:center;
 }
-/*HOMEPAGE MENU LAYOUT SECTION**************************/
 
 
+
+/*RESPONSIVE HOMEPAGE TABLET*/
+@media (max-width: 1024px) {}
+
+
+
+/*RESPONSIVE HOMEPAGE MOBILE*/
+@media (max-width: 768px){}
 
 
 
@@ -444,6 +478,15 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
 .about-text-box p{
  margin-bottom: 0.5rem;
 }
+
+
+/*RESPONSIVE ABOUT PAGE TABLET*/
+@media (max-width: 1024px) {}
+
+
+
+/*RESPONSIVE ABOUT PAGE MOBILE*/
+@media (max-width: 768px){}
 
 
 
@@ -564,6 +607,16 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   margin-bottom: 0.75rem;
 }
 
+/*RESPONSIVE TIMELINE PAGE TABLET*/
+@media (max-width: 1024px) {}
+
+
+
+/*RESPONSIVE TIMELINE PAGE MOBILE*/
+@media (max-width: 768px){}
+
+
+
 /*FAQ PAGE**************************************************************************************
 ****************************************************************************************************************/
 .faq-page-wrapper {
@@ -646,6 +699,19 @@ padding-top: 1rem;
 color:#3325c7
 }
 
+
+/*RESPONSIVE FAQ PAGE TABLET*/
+@media (max-width: 1024px) {}
+
+
+
+/*RESPONSIVE FAQ PAGE MOBILE*/
+@media (max-width: 768px){}
+
+
+
+
+
 /*MAP PAGE**************************************************************************************
 ****************************************************************************************************************/
 .map-page-wrapper{
@@ -687,12 +753,19 @@ color:#3325c7
   max-width: 20rem;
   width: 20rem;
   border-radius: 1rem;
-  background:#d2d4ff;
 }
 
+/*RESPONSIVE MAP PAGE TABLET*/
+@media (max-width: 1024px) {}
 
-/*RESPONSIVENESS
-Notes:
+
+
+/*RESPONSIVE MAP PAGE MOBILE*/
+@media (max-width: 768px){}
+
+
+
+/*Responsiveness Notes:
 - Use relative Units such as rem and em for larger elements 
 - Pixels and absolute positioning do not adapt to different screen sizes 
 - I should use flexbox and percentages for layout

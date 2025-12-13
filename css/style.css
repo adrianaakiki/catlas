@@ -94,7 +94,38 @@ color:#5245e5
 
 
 /*RESPONSIVE NAV BAR MOBILE*/
-@media (max-width: 768px){}
+@media (max-width: 768px){
+
+.navbar{
+  padding:0.75rem 1rem;
+  justify-content:space-between;
+}
+
+.nav-links{
+  display:none;
+  padding: 1rem 0 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+  width: 100%;
+  margin:0;
+  background-color:#f3ecff;
+  list-style: none;
+}
+
+  .nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;   
+    cursor:  url("/cursor/bent-paw-cursor.cur") pointer;
+    color: #292647;       
+  }
+
+}
+
+
+
 
 /*HAMBURGER NAV BAR*/
 /*Tutorial:https://www.youtube.com/watch?v=Ovl3IxTwS18&t=1s

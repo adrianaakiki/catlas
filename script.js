@@ -50,15 +50,14 @@ for (let i = 0; i < buttons.length; i++) {
 
 //MAP PAGE INTERACTIVE SECTION----------------------------------------
 // 'map' matches the map id from the html, following leaflet's tutorial https://leafletjs.com/examples/quick-start/
-const map = L.map("map", {
-  zoomControl: true,
-  scrollWheelZoom: false
-}).setView([20, 0], 2); 
+// wrapped the leaflet code so it only runs on the map page to avoid breaking other pages 
+const mapDiv = document.getElementById("map");
 
+if (mapDiv && typeof L !== "undefined") {
+  const map = L.map("map").setView([20, 0], 2);
 
 // Adding styled map tile https://leaflet-extras.github.io/leaflet-providers/preview/#filter=CartoDB.Voyager
-L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
   {
     attribution:
       '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
@@ -130,8 +129,7 @@ breeds.forEach((breed) => {
   `);
 });
 
-
-
+}
 
 // Note: Add mobile version for later 
 
@@ -140,3 +138,19 @@ breeds.forEach((breed) => {
 // map markers: https://www.youtube.com/watch?v=wVnimcQsuwk&list=PLGHe6Moaz52PUNP4DtIshALDogSURIlYB
 // map popups: https://www.youtube.com/watch?v=OYjFR_CGV8o&list=PLGHe6Moaz52PUNP4DtIshALDogSURIlYB&index=2
 // marker icon, shadows: https://www.youtube.com/watch?v=wnsEYm9hF0o&list=PLGHe6Moaz52PUNP4DtIshALDogSURIlYB&index=3
+
+
+
+// HAMBURGER NAV BAR TOGGLE -----------------
+document.addEventListener("DOMContentLoaded", function () {
+  const navButton = document.querySelector(".nav-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  if (!navButton || !navLinks) {
+    return;
+  }
+  console.log("Navbar JS ready"); 
+  navButton.addEventListener("click", function () {
+    navLinks.classList.toggle("show");
+  });
+});

@@ -89,7 +89,7 @@ color:#5245e5
 
 
 /*RESPONSIVE NAV BAR TABLET*/
-@media (max-width: 1024px) and (min-width: 769px){
+@media (max-width: 1024px) and (min-width: 768px){
 
   .nav-toggle{
     display: none; 

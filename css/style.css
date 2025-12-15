@@ -403,7 +403,7 @@ p{
 it was poorly cropped before uploading the image source, that is why 
 flexbox did not work as well. 
 
-the height adjustment on images fixed the issue to line the menu buttons up, 
+he height adjustment on images fixed the issue to line the menu buttons up, 
 and the object-fit contain prevents the images from stretching weirdly*/
 
 .homepage-menu img {
@@ -450,6 +450,7 @@ text-align:center;
   .logo {
     height: 6rem;
     margin-top: -1rem;
+    margin-bottom:-3rem;
   }
 }
 

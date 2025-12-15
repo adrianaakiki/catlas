@@ -882,12 +882,45 @@ color:#3325c7
 }
 
 /*RESPONSIVE MAP PAGE TABLET*/
-@media (max-width: 1024px) {}
+@media (max-width: 1024px){
+  #map{
+    height: 40vh;
+  }
 
+  .breed-popup-img{
+    width: 80%;          
+    height: 80%;
+  }
+
+.leaflet-popup-content-wrapper {
+  max-width: 18em;
+  width: 18rem;
+  border-radius: 1rem;
+}
+}
 
 
 /*RESPONSIVE MAP PAGE MOBILE*/
-@media (max-width: 768px){}
+@media (max-width: 768px){
+  #map{
+    height: 100vw;
+    width: 100vh;
+   
+  }
+
+  .map-section{
+    overflow: hidden;
+  }
+.map-page-title {
+  font-size:1.7rem;
+}
+
+.map-page-intro {
+  font-size:1rem;
+}
+
+
+}
 
 
 

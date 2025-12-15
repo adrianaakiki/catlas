@@ -683,13 +683,51 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   margin-bottom: 0.75rem;
 }
 
-/*RESPONSIVE TIMELINE PAGE TABLET*/
-@media (max-width: 1024px) {}
 
+/*RESPONSIVE TIMELINE PAGE MOBILE & TABLET*/
+@media (max-width: 768px){
+  
+  .era-content {
+    padding: 0.5rem 1rem 4rem;
+  }
 
+  /* STACK: image on top, text underneath */
+  .era-content > .era-content--active {
+    flex-direction: column;
+    align-items: center;     /* centers the column */
+    justify-content: center;
+    text-align: center;      /* centers the text */
+    gap: 1.25rem;
+  }
 
-/*RESPONSIVE TIMELINE PAGE MOBILE*/
-@media (max-width: 768px){}
+  .era-image,
+  .era-text {
+    width: 100%;
+    max-width: 30rem;
+  }
+  .era-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .era-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .era-button {
+    flex: 0 0 33.333%;
+    text-align: center;
+  }
+}
+
 
 
 

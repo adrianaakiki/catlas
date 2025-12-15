@@ -129,7 +129,9 @@ breeds.forEach((breed) => {
   `);
 });
 
-}
+
+}-
+
 
 // Note: Add mobile version for later 
 

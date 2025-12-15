@@ -113,6 +113,8 @@ color:#5245e5
 }
 
 /*RESPONSIVE NAV BAR MOBILE*/
+/*Tutorial:https://www.youtube.com/watch?v=Ovl3IxTwS18&t=1s
+Hamburger character: https://www.piliapp.com/symbol/menu*/
 @media (max-width: 768px){
 
 .navbar{
@@ -168,17 +170,6 @@ text-decoration: underline;
 }
 
 
-
-
-/*HAMBURGER NAV BAR*/
-/*Tutorial:https://www.youtube.com/watch?v=Ovl3IxTwS18&t=1s
-Hamburger character: https://www.piliapp.com/symbol/menu/
-
-
-
-
-
-
 /*PAGE FOOTER*******************************************/
 .site-footer{
     background-color:#1f1e2c;
@@ -210,27 +201,26 @@ html {
   scroll-behavior: smooth;
 }
 
-/*RESPONSIVE FOOTER TABLET*/
-@media (max-width: 1024px) {}
-
-
-
-/*RESPONSIVE FOOTER MOBILE*/
-@media (max-width: 768px){}
-
 
 /*HOMEPAGE*******************************************************************************************
 ****************************************************************************************************************/
 /*HOMPAGE CATLAS LOGO**********************************/
 /* I learned that this was a shortcut to position an element like my logo top center*/
+/*POSITIONING NOTE TO SELF: Microsoft live preview is not an accurate representation of a real browser window, 
+use Live Server for accuracy, use shortcut ctrl+0 for 100% default zoom.
+
+TROUBLESHOOTING POSITIONING: I relied on the live preview window on VS Code to see the changes being
+made and I used it as a guide with manual positioning and creating flexbox layouts. 
+When I opened my browser through live server, everything is zoomed in - even at 100% and the elements
+are too large and off center. I will fix this by adjusting sizes and positioning of some elements and use live server as a guide 
+to review my changes*/
+
 .logo {
     height: 7rem;
     display: block;
     margin: 0 auto;
     margin-top:-2rem;
 }
-
-
 
 /*HOMPAGE PAGE WRAPPER*********************************/
 .page-wrapper {
@@ -239,16 +229,6 @@ html {
     margin: 0 auto;
     margin-top:0.5rem;
 }
-
-
-/*POSITIONING NOTE TO SELF: Microsoft live preview is not an accurate representation of a real browser window, 
-use Live Server for accuracy, use shortcut ctrl+0 for 100% default zoom.
-
-TROUBLESHOOTING POSITIONING: I relied on the live preview window on VS Code to see the changes being
-made and I used it as a guide with manual positioning and creating flexbox layouts. 
-When I opened my browser through live server, everything is zoomed in - even at 100% and the elements
-are too large and off center. I will fix this by adjusting sizes and positioning of some elements and use live server as a guide 
-to review my changes
 
 
 /*HOME PAGE WELCOME SECTION*****************************/
@@ -308,7 +288,6 @@ line-height: 1.5rem;
 .blackcat-stretch {
     width: 6rem;
 }
-
 
 
 /*FONT-STYLES*********************************************/
@@ -380,6 +359,7 @@ p{
     width: 15rem;
     text-decoration:none;
 }
+
 .timeline-description,.faq-description, .map-description {
     margin-top:0.7rem;
 }
@@ -425,8 +405,8 @@ he height adjustment on images fixed the issue to line the menu buttons up,
 and the object-fit contain prevents the images from stretching weirdly*/
 
 .homepage-menu img {
-    width:20rem;
-    height:10rem;
+    width:min(70vw, 20rem);
+    height:auto;
     display:block;
     margin:0 auto;
     object-fit:contain;

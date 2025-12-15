@@ -403,7 +403,7 @@ p{
 it was poorly cropped before uploading the image source, that is why 
 flexbox did not work as well. 
 
-he height adjustment on images fixed the issue to line the menu buttons up, 
+the height adjustment on images fixed the issue to line the menu buttons up, 
 and the object-fit contain prevents the images from stretching weirdly*/
 
 .homepage-menu img {
@@ -423,16 +423,35 @@ text-align:center;
 }
 
 
+/*RESPONSIVE HOMEPAGE TABLET & MOBILE*/
+@media (max-width: 1024px) {
+  .page-wrapper {
+    padding: 1.5rem 1.5rem 4rem;
+  }
 
-/*RESPONSIVE HOMEPAGE TABLET*/
-@media (max-width: 1024px) {}
+  .homepage-menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 4rem;
+    margin-top: 2rem;
+  }
 
+  .homepage-menu > div {
+    width: 100%;
+    max-width: 34rem;
+  }
 
+  .top-area-cats {
+    margin-top: 0;
+    padding: 0 1rem;
+  }
 
-/*RESPONSIVE HOMEPAGE MOBILE*/
-@media (max-width: 768px){}
-
-
+  .logo {
+    height: 6rem;
+    margin-top: -1rem;
+  }
+}
 
 
 /*ABOUT PAGE *******************************************************************************************
@@ -722,7 +741,6 @@ https://www.youtube.com/watch?v=NHb3o3sP9iA&t=395s*/
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
 /*removing the weird triangles*/
 .faq-item summary {
   list-style: none;
@@ -754,18 +772,6 @@ padding-top: 1rem;
 .faq-contact a{
 color:#3325c7
 }
-
-
-/*RESPONSIVE FAQ PAGE TABLET*/
-@media (max-width: 1024px) {}
-
-
-
-/*RESPONSIVE FAQ PAGE MOBILE*/
-@media (max-width: 768px){}
-
-
-
 
 
 /*MAP PAGE**************************************************************************************

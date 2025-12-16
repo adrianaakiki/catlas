@@ -115,7 +115,7 @@ color:#5245e5
 /*RESPONSIVE NAV BAR MOBILE*/
 /*Tutorial:https://www.youtube.com/watch?v=Ovl3IxTwS18&t=1s
 Hamburger character: https://www.piliapp.com/symbol/menu*/
-@media (max-width: 768px){
+@media (max-width: 769px){
 
 .navbar{
   padding:0.25rem 2.5rem;

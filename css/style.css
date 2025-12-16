@@ -414,6 +414,15 @@ and the object-fit contain prevents the images from stretching weirdly*/
     object-fit:contain;
 }
 
+.homepage-menu img.map-icon{
+  width: 19.9rem;    
+  height: auto;
+  margin-top: -0.5rem; 
+  object-fit: contain;
+  display: block;
+}
+
+
 /*making each box act as a column*/
 .homepage-menu > div{
 display:flex;

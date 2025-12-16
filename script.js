@@ -74,42 +74,42 @@ const breeds = [
     location: "Maine, United States",
     coords: [45.0, -69.0],
     img: "map-images/maine-coon.jpg",
-    text: "description."
+    text: "Maine Coone's are adapted to survive harsh winters through their majestic, thick, coats and their large stature. These gentle giants are known for their friendliness, playfulness, and affection. "
  },
   {
     name: "Russian Blue",
     location: "Arkhangelsk, Northern Russia",
     coords: [64.54, 40.54], 
     img: "map-images/russian-blue.jpg",
-    text: "description."
+    text: "Also known as Archangel cats, Russian Blues have distinctive physical traits, including a silvery-blue coat and striking green eyes. They are known to be very energetic and athletic, and their strong hind legs make them excellent jumpers and climbers. Russian Blues are intelligent, loyal, and playful creatures. "
   },
   {
     name: "Siamese",
     location: "Thailand",
     coords: [13.7563, 100.5018], 
     img: "map-images/siamese.jpg",
-    text: "description"
+    text: "Siamese cats were historically considered sacred, protecting temples and often serving as companions to royal families. They're known for their striking appearance, energetic attention, and chatty, loving personality. Siamese cats make a lasting impression as the extroverts of the feline world."
   },
   {
     name: "Scottish Fold",
     location: "Scotland",
     coords: [56.0, -4.0], 
     img: "map-images/scottish-fold.jpg",
-    text: "description."
+    text: "Scottish Folds are known for their easygoing, playful nature, with distinct folded ears originating in Scotland from a barn cat with naturally folded ears due to a spontaneous genetic mutation."
   },
   {
   name: "Persian",
   location: "Iran, Tehran",
   coords: [35.6892, 51.3890],
   img: "map-images/persian.jpg", 
-  text: "description."
+  text: "Persian cats are among the oldest cat breeds, known for their sweet, calm personalities. Persian cats have been featured in the world's first cat show in London in 1871, and were popular breeds amongst royal families. They are known for their distinct flat faces and luxurious, long, and elegant fur coats."
 },
 {
   name: "Egyptian Mau",
   location: "Egypt, Cairo",
   coords: [30.0444, 31.2357],
   img: "map-images/egyptian-mau.jpg",
-  text: "description."
+  text: "The Egyptian Mau originated in Ancient Egypt and was often depicted in ancient hieroglyphs, where it was closely associated with spirituality. Egyptian Mau's are known for their muscular and spotted physique and emotional intelligence. Their other distinct characteristics include notably large ears and unique vocalizations, with chirps and trills rather than typical meows. "
 }
 ];
 

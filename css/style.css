@@ -866,9 +866,9 @@ color:#3325c7
 
 
 .breed-popup-img{
-  width: 100%;         
-  max-width: 80rem;     
-  height: 100%;
+  width: 110%;         
+  max-width: 95rem;     
+  height: 110%;
   border-radius: 0.5rem;
   display: block;
   margin: 0 auto 0.5rem auto; 
@@ -879,12 +879,32 @@ color:#3325c7
   max-width: 20rem;
   width: 20rem;
   border-radius: 1rem;
+  margin:0;
+  padding:-0.5rem;
+}
+
+.breed-popup-name {
+  font-size: 0.8rem;   
+  margin-bottom: -0.6rem;
+}
+
+.breed-popup-location {
+  font-size: 0.6rem;  
+  margin-bottom: 0rem;
+  opacity: 0.8;        
+}
+
+.breed-popup-text {
+  font-size: 0.5rem;
+padding:-1.3rem;
+margin-top:-1rem;
+  
 }
 
 /*RESPONSIVE MAP PAGE TABLET*/
 @media (max-width: 1024px){
   #map{
-    height: 40vh;
+    height: 65vh;
   }
 
   .breed-popup-img{

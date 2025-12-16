@@ -415,7 +415,7 @@ and the object-fit contain prevents the images from stretching weirdly*/
 }
 
 .homepage-menu img.map-icon{
-  width: 19.9rem;    
+  width: 20rem;    
   height: auto;
   margin-top: -0.5rem; 
   object-fit: contain;
